@@ -18,7 +18,9 @@ include ("inc/header2.php");
 				<span class="slide-button"></span>
 			</div>
         <div id="definition-content">
-            <p>fkjslfksjafkhjhkfgsajkgfsajfgsljfgsajkfhsakflhsakjfhdsjkt vyueiwrcryeuwrvlewujafksashjfgcJL.dfsjdfkdsjkdhgjkdsghkjdsfhdsjkhdsjkhdsjkghjkdshgjdshkbwyercubry iusjkfbjdsbgkd.j jlskf sdklf lkdsg jljdfhglis gk,bgdhsjkeghfes ,hvgd 'Strata' means 'layer'. A stratified sample is made up of different 'layers' of the population, for example, selecting samples from different age groups. The sample size for each layer is proportional to the size of the 'layer'. gz rgads.zkf esl aw</p>
+            <p>In statistics, stratified sampling is a method of sampling from a population.
+
+When sub-populations vary considerably, it is advantageous to sample each subpopulation (stratum) independently. Stratification is the process of grouping members of the population into relatively homogeneous subgroups before sampling. The strata should be mutually exclusive: every element in the population must be assigned to only one stratum. The strata should also be collectively exhaustive: no population element can be excluded. Then random or systematic sampling is applied within each stratum. This often improves the representativeness of the sample by reducing sampling error. It can produce a weighted mean that has less variability than the arithmetic mean of a simple random sample of the population.</p>
         </div>
 		<div id="explanation-content">
 			<p>Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>

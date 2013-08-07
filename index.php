@@ -33,7 +33,7 @@ include ("inc/header.php");
                 <div id="main-link">
                     <a class = "course-link" id ="course-link-2">Statistics and Probability</a>
                         <ul id = "2-course-list">
-                            <li><a href="http://yrs_2013.theconartist.c9.io/yrs_2013/stratified-sampling.php" class ="nested-link">Stratified Sampling</a></li>
+                            <li><a href="http://mathsacademy.montyman100.c9.io/stratified-sampling.php" class ="nested-link">Stratified Sampling</a></li>
                             <li><a href="#" class ="nested-link">Percentages</a></li>
                             <li><a href="#" class ="nested-link">Representing Data</a></li>
                             <li><a href="#" class ="nested-link">Probability</a></li>

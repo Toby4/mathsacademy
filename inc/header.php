@@ -25,7 +25,7 @@
     <body>
         <nav id="nav1">
         <header>
-            <a href="http://yrs_2013.theconartist.c9.io/yrs_2013/" id="logo"><h1>maths academy.</h1></a>
+            <a href="index.php" id="logo"><h1>maths academy.</h1></a>
         </header>
             <ul>
         	 <li><a id="home-nav" href="#">Home</a></li>
