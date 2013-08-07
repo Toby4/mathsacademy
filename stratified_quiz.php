@@ -32,7 +32,7 @@ function questionComplete(){
 <input type="radio" name="q1" class="radio_button" value="a1" /><span>A technique used to record data from questionnaires.</span></span><br />
 <input type="radio" name="q1" class="radio_button" value="a2" /><span>Each element of the population has a equal chance of being selected.</span><br />
 <input type="radio" name="q1" class="radio_button" value="a3" /><span>The population is divided into groups and then random samples are taken in proportion to group sizes.</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 </section>
 
@@ -41,7 +41,7 @@ function questionComplete(){
 <input type="radio" name="q2" class="radio_button" value="a1" /><span>Sample size for each group = size of whole sample/size of wanted sample ×  population of group</span><br />
 <input type="radio" name="q2" class="radio_button" value="a2" /><span>Sample size for each group = size of wanted sample/size of whole sample ×  population of group</span><br />
 <input type="radio" name="q2" class="radio_button" value="a3" /><span>Sample size for each group = population of group/size of wanted sample ×  size of whole sample</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 </section>
 <section>
@@ -80,7 +80,7 @@ function questionComplete(){
 <input type="radio" name="q3" class="radio_button" value="a2" /><span>12</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>7</span><br />
 <input type="radio" name="q3" class="radio_button" value="a3" /><span>9</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 
 
@@ -90,7 +90,7 @@ function questionComplete(){
 <input type="radio" name="q4" class="radio_button" value="a3" /><span>7</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>11</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>15</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 
 
@@ -100,7 +100,7 @@ function questionComplete(){
 <input type="radio" name="q5" class="radio_button" value="a3" /><span>8</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>6</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>14.5</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 
 
@@ -110,7 +110,7 @@ function questionComplete(){
 <input type="radio" name="q6" class="radio_button" value="a2" /><span>13.5</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>11</span><br />
 <input type="radio" name="q6" class="radio_button" value="a3" /><span>18</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 
 <h3>7. How many people were asked in year 11?</h3>
@@ -119,7 +119,7 @@ function questionComplete(){
 <input type="radio" name="q7" class="radio_button" value="a2" /><span>4</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>4</span><br />
 <input type="radio" name="q7" class="radio_button" value="a3" /><span>4.5</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 </section>
 
@@ -156,14 +156,14 @@ function questionComplete(){
 <input type="radio" name="q8" class="radio_button" value="a2" /><span>3</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>6</span><br />
 <input type="radio" name="q8" class="radio_button" value="a3" /><span>8</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <h3>How many programmers were asked?</h3>
 <input type="radio" name="q9" class="radio_button" value="a1" /><span>15</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>13</span><br />
 <input type="radio" name="q9" class="radio_button" value="a2" /><span>17</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>19</span><br />
 <input type="radio" name="q9" class="radio_button" value="a3" /><span>21</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 
 <h3>How many designers were asked?</h3>
@@ -172,7 +172,7 @@ function questionComplete(){
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>10</span><br />
 <input type="radio" name="q10" class="radio_button" value="a3" /><span>11</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>7</span><br />
-<p>(1 marks)</p>
+<p>(1 mark)</p>
 <br /><br />
 
 <input type="submit" value="Finished" name="submit" />
