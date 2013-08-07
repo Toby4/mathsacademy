@@ -1,0 +1,102 @@
+
+.section {
+    width: 940px;
+    margin: auto;
+	margin-bottom: 20px;
+	padding: 30px;
+    background-color: #848484;
+    color: red;
+}
+                    
+.title_h1 {
+    font-family: "Source Code Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 3em;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#box1 p {
+    font-size: 1em;
+   font-family: 'Nunito',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color:#333;
+    line-height: 1.5em;
+               
+}
+                    
+#box1 {
+    background-color: #f5f5f5;
+    border: 2px solid #e3e3e3;
+    color: #333;
+    padding: 1%;
+    width: 68.5%;
+    margin-left: 28.5%;
+
+    }
+                    
+.quote {
+    padding: 10px;
+    border: 2px solid #e3e3e3;
+}
+
+.homepage-content-hide {
+    display: none;
+}
+
+#course-content {
+    display: none;
+    /*DO NOT CHANGE THE MARGIN TOP. TYVM*/
+}
+
+#box1 #main-link {
+    color: #333;
+	text-decoration: none;
+	padding: 15px;
+    font-family: 'Nunito', 'sans-serif';
+    margin: 15px;
+    font-size: 1.5em;
+    display: block;
+    border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+
+
+h3, h2, p, label span {
+    font-family: 'Nunito',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+#footer {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.nested-link {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Nunito', 'sans-serif';
+    margin: 10px;
+    font-size: 1em;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.course-link {
+    color: #C0392B;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    cursor: hand;
+}
+
+.course-link:hover {
+    color: #702119;
+}
+
+#1-course-list, #2-course-list, #3-course-list, #4-course-list, #5-course-list {
+    display: none;
+}

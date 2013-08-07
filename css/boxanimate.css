@@ -1,0 +1,33 @@
+#box1, #box2, #box3 {
+    width: 250px;
+	height: 250px;
+	margin: 25px auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#box1 {
+	background-color: #000;
+	color: #fff;
+}
+
+#box2 {
+	background-color: green;
+	color: yellow;
+	/*margin: -500px 0px*/
+	display:none;
+	margin-top: -295px;
+}
+
+#box3 {
+	background-color: blue;
+	color: yellow;
+	/*margin: -500px 0px*/
+	display:none;
+	margin-top: -295px;
+}
+
+#nav, #nav2, #nav3{
+	text-decoration: underline;
+	cursor: hand;
+}

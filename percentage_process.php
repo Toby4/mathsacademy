@@ -1,0 +1,110 @@
+<?php
+$page = "Percentage quiz";
+include ("inc/header.php");
+include ("inc/script.php");
+$score = 0;
+if (isset($_POST['timeout'])) {
+    echo "<p>Times up boy. You better get faster.</p>"; 
+} else {
+if (isset($_POST["q1"])) {
+    $q1 = $_POST["q1"];
+    if ($q1 == "14.4" || $q1 == "14.4%") {
+        $score = $score + 1;
+    } else {
+        $score = $score;
+    }
+}
+
+if (isset($_POST['q2'])) {
+    $q2 = $_POST['q2'];
+    if ($q2 == "84" || $q2 == "84p" || $q2 == "84P") {
+        $score = $score + 1;
+    } else {
+        $score = $score;
+}
+}
+if (isset($_POST['q3'])) {
+    $q3 = $_POST['q3'];
+    if ($q3 == "20" || $q3 == "20%") {
+        $score = $score + 1;
+    } else {
+        $score = $score;
+    }
+}
+
+if (isset($_POST['q4'])) {
+    $q4 = $_POST['q4'];
+    if ($q4 == "400" || $q4 == "£400") {
+        $score = $score + 1;
+    } else {
+        $score = $score;
+    } 
+}
+
+if (isset($_POST['q5'])) {
+    $q5 = $_POST['q5'];
+    if ($q5 == "1500" || $q5 == "1,500" || $q5 == "£1500" || $q5 == "£1,500") {
+        $score = $score + 1;
+    } else {
+        $score = $score;
+    }
+}
+
+if (isset($_POST['q6'])) {
+    $q6 = $_POST['q6'];
+    if ($q6 == "35" || $q6 == "35%") {
+        $score = $score + 1;
+    } else {
+        $score = $score;
+    }
+}
+
+if (isset($_POST['q7'])) {
+    $q7 = $_POST['q7'];
+    if ($q7 == "5054.10" || $q7 == "£5054.10" || $q7 == "5,054.10" || $q7 == "£5,054.10" || $q7 == "£5054 p10" || $q7 == "£5,054 p10") {
+        $score = $score + 3;
+    } else {
+        $score = $score;
+    }
+}
+}
+echo "<h1>You scored ".$score." / 10";
+
+switch ($score) {
+    case 0:
+        echo "<p>Teribble, just terribble.</p><img src='u.jpg' alt='u grade' />";
+        break;
+    case 1:
+        echo "<p>You got some serious revising to do.</p><img src='f.jpg' alt='f grade' />";
+        break;
+    case 2:
+        echo "<p>What the hell was that?</p><img src='e.jpg' alt='e grade' />";
+        break;
+    case 3:
+        echo "<p>You got some revising to do.</p><img src='d.jpg' alt='d grade' />";
+        break;
+    case 4:
+        echo "<p>Well done on the pass but you can do better.</p><img src='c.jpg' alt='c grade' />";
+        break;
+    case 5:
+        echo "<p>Well done on the pass but you can do better.</p><img src='c.jpg' alt='c grade' />";
+        break;
+    case 6:
+        echo "<p>Good job; a little more revision and you're with the pros.</p><img src='b.jpg' alt='b grade' />";
+        break;
+    case 7:
+        echo "<p>Nice work you have done well.</p><img src='a.jpg' alt='a grade' />";
+        break;
+    case 8:
+        echo "<p>Great score.</p><img src='a_star.jpg' alt='a* grade' />";
+        break;
+    case 9:
+        echo "<p>Great score.</p><img src='a_star.jpg' alt='a* grade' />";
+        break;
+    case 10:
+        echo "<p>You are a god.</p><img src='a_star.jpg' alt='a* grade' />";
+        badge("100%");
+        break;
+}   
+
+?>
