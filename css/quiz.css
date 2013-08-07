@@ -23,5 +23,7 @@ td {
     border: 1px solid #e3e3e3;
     font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-size: 1em;
-    padding-left: 20px;
+    padding: 0 10px;
+    vertical-align: middle;
+    height: 1.5em;
 }

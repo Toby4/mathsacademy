@@ -3,7 +3,7 @@ include ("inc/header.php");
 ?>        
     <div id="homepage-content" class="animated fadeIn">    
         <section class = "section" id="box1">
-            <h1 class = 'title_h1'>Welcome</h1>
+            <h1 class = 'title_h1'>Welcome to kittens</h1>
             <p>Welcome to maths academy. We decided to create this site after we found that children nowadays prefer teaching themselves rather than being spoken at.</p>
             <p>This site uses a combination of: html, css, php, jquery, javascript and ajax.</p>
             <p>Children fill out the quizes and once they submit, the grade gets stored. This is so schools can see who is getting the high grades and who is getting the low ones. This is a form of open data.</p>
