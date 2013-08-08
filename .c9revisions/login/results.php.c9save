@@ -1,0 +1,50 @@
+{"ts":1375983075754,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1375983078595,"patch":[[{"diffs":[[1,"<?php\n$ema"]],"start1":0,"start2":0,"length1":0,"length2":10}]],"length":10,"saved":false}
+{"ts":1375983079202,"patch":[[{"diffs":[[0,"php\n$ema"],[1,"il = "]],"start1":2,"start2":2,"length1":8,"length2":13}]],"length":15,"saved":false}
+{"ts":1375983081699,"patch":[[{"diffs":[[0,"email = "],[1,"$"]],"start1":7,"start2":7,"length1":8,"length2":9}]],"length":16,"saved":false}
+{"ts":1375983082279,"patch":[[{"diffs":[[0,"mail = $"],[1,"_"]],"start1":8,"start2":8,"length1":8,"length2":9}]],"length":17,"saved":false}
+{"ts":1375983100438,"patch":[[{"diffs":[[0,"ail = $_"],[1,"POST"]],"start1":9,"start2":9,"length1":8,"length2":12}]],"length":21,"saved":false}
+{"ts":1375983101199,"patch":[[{"diffs":[[0,"= $_POST"],[1,"p"]],"start1":13,"start2":13,"length1":8,"length2":9}]],"length":22,"saved":false}
+{"ts":1375983104793,"patch":[[{"diffs":[[0,"= $_POST"],[-1,"p"],[1,"[\"\"]"]],"start1":13,"start2":13,"length1":9,"length2":12}]],"length":25,"saved":false}
+{"ts":1375983124498,"patch":[[{"diffs":[[0,"$_POST[\""],[1,"email"],[0,"\"]"]],"start1":15,"start2":15,"length1":10,"length2":15}]],"length":30,"saved":false}
+{"ts":1375983125016,"patch":[[{"diffs":[[0,"\"email\"]"],[1,";"]],"start1":22,"start2":22,"length1":8,"length2":9}]],"length":31,"saved":false}
+{"ts":1375983126539,"patch":[[{"diffs":[[0,"email\"];"],[1,"\n\n\n?"]],"start1":23,"start2":23,"length1":8,"length2":12}]],"length":35,"saved":false}
+{"ts":1375983127975,"patch":[[{"diffs":[[0,"l\"];\n\n\n?"],[1,">"]],"start1":27,"start2":27,"length1":8,"length2":9}]],"length":36,"saved":false}
+{"ts":1375983145242,"patch":[[{"diffs":[[0,"mail\"];\n"],[1,"file_get_contents()"],[0,"\n\n?>"]],"start1":24,"start2":24,"length1":12,"length2":31}]],"length":55,"saved":false}
+{"ts":1375983149913,"patch":[[{"diffs":[[0,"mail\"];\n"],[1,"$file = "],[0,"file_get"]],"start1":24,"start2":24,"length1":16,"length2":24},{"diffs":[[0,"ontents("],[1,"\"\""],[0,")\n\n?>"]],"start1":50,"start2":50,"length1":13,"length2":15}]],"length":65,"saved":false}
+{"ts":1375983156670,"patch":[[{"diffs":[[0,"ntents(\""],[1,"db/$emai"],[0,"\")\n\n?>"]],"start1":51,"start2":51,"length1":14,"length2":22}]],"length":73,"saved":false}
+{"ts":1375983157193,"patch":[[{"diffs":[[0,"db/$emai"],[1,"l"],[0,"\")\n\n?>"]],"start1":59,"start2":59,"length1":14,"length2":15}]],"length":74,"saved":false}
+{"ts":1375983157616,"patch":[[{"diffs":[[0,"$email\")"],[1,";"],[0,"\n\n?>"]],"start1":62,"start2":62,"length1":12,"length2":13}]],"length":75,"saved":false}
+{"ts":1375983161106,"patch":[[{"diffs":[[0,"email\");"],[1,"\necho $"],[0,"\n\n?>"]],"start1":63,"start2":63,"length1":12,"length2":19}]],"length":82,"saved":false}
+{"ts":1375983163936,"patch":[[{"diffs":[[0,";\necho $"],[1,"file;"],[0,"\n\n?>"]],"start1":70,"start2":70,"length1":12,"length2":17}]],"length":87,"saved":false}
+{"ts":1375983234748,"patch":[[{"diffs":[[0,"hp\n$"],[-1,"email = $_POST[\"email\"];\n$file = file_get_contents(\"db/$email\");\necho $file;\n"],[1,"file1 = \"./test.txt\";\n$lines = file($file1);\nforeach($lines as $line_num => $line)\n{\necho $line;\necho \"<br>\";\n}"],[0,"\n?>"]],"start1":3,"start2":3,"length1":84,"length2":118}]],"length":121,"saved":false}
+{"ts":1375983236935,"patch":[[{"diffs":[[0,"hp\n$file"],[-1,"1"],[0," = \"./te"]],"start1":3,"start2":3,"length1":17,"length2":16}]],"length":120,"saved":false}
+{"ts":1375983237957,"patch":[[{"diffs":[[0,"file"],[-1,"1"],[0,");\nf"]],"start1":43,"start2":43,"length1":9,"length2":8}]],"length":119,"saved":false}
+{"ts":1375983244414,"patch":[[{"diffs":[[0,"> $line)"],[-1,"\n"],[1," "],[0,"{\necho $"]],"start1":79,"start2":79,"length1":17,"length2":17}]],"length":119,"saved":false}
+{"ts":1375983246519,"patch":[[{"diffs":[[0,"$file);\n"],[1,"\n"],[0,"foreach("]],"start1":42,"start2":42,"length1":16,"length2":17},{"diffs":[[0,"line) {\n"],[1,"    "],[0,"echo $li"]],"start1":83,"start2":83,"length1":16,"length2":20},{"diffs":[[0," $line;\n"],[1,"    "],[0,"echo \"<b"]],"start1":99,"start2":99,"length1":16,"length2":20}]],"length":128,"saved":false}
+{"ts":1375983250758,"patch":[[{"diffs":[[0," = \""],[-1,"./test.txt"],[0,"\";\n$"]],"start1":11,"start2":11,"length1":18,"length2":8}]],"length":118,"saved":false}
+{"ts":1375983252151,"patch":[[{"diffs":[[0,"file = \""],[1,"db/£"],[0,"\";\n$line"]],"start1":7,"start2":7,"length1":16,"length2":20}]],"length":122,"saved":false}
+{"ts":1375983253392,"patch":[[{"diffs":[[0,"\"db/"],[-1,"£"],[1,"$e"],[0,"\";\n$"]],"start1":14,"start2":14,"length1":9,"length2":10}]],"length":123,"saved":false}
+{"ts":1375983254414,"patch":[[{"diffs":[[0,"= \"db/$e"],[1,"mail"],[0,"\";\n$line"]],"start1":12,"start2":12,"length1":16,"length2":20}]],"length":127,"saved":false}
+{"ts":1375983256484,"patch":[[{"diffs":[[0,"<?php\n"],[1,"\n"],[0,"$file = "]],"start1":0,"start2":0,"length1":14,"length2":15}]],"length":128,"saved":false}
+{"ts":1375983260958,"patch":[[{"diffs":[[0,"<?php\n"],[1,"$email = $"],[0,"\n$file ="]],"start1":0,"start2":0,"length1":14,"length2":24}]],"length":138,"saved":false}
+{"ts":1375983263496,"patch":[[{"diffs":[[0,"mail = $"],[1,"_POS"],[0,"\n$file ="]],"start1":8,"start2":8,"length1":16,"length2":20}]],"length":142,"saved":false}
+{"ts":1375983264094,"patch":[[{"diffs":[[0," = $_POS"],[1,"T"],[0,"\n$file ="]],"start1":12,"start2":12,"length1":16,"length2":17}]],"length":143,"saved":false}
+{"ts":1375983265850,"patch":[[{"diffs":[[0,"= $_POST"],[1,"[\"\"]"],[0,"\n$file ="]],"start1":13,"start2":13,"length1":16,"length2":20}]],"length":147,"saved":false}
+{"ts":1375983270002,"patch":[[{"diffs":[[0,"$_POST[\""],[1,"email"],[0,"\"]\n$file"]],"start1":15,"start2":15,"length1":16,"length2":21}]],"length":152,"saved":false}
+{"ts":1375984670393,"patch":[[{"diffs":[[0,"\"email\"]"],[1,";"],[0,"\n$file ="]],"start1":22,"start2":22,"length1":16,"length2":17},{"diffs":[[0,"    "],[-1,"echo $line;\n    echo \"<br>\";"],[1,"html = str_replace()"],[0,"\n}\n?"]],"start1":116,"start2":116,"length1":36,"length2":28}]],"length":145,"saved":false}
+{"ts":1375985733645,"patch":[[{"diffs":[[0,"replace("],[1,"\"\""],[0,")\n}\n?>"]],"start1":131,"start2":131,"length1":14,"length2":16}]],"length":147,"saved":false}
+{"ts":1375985739260,"patch":[[{"diffs":[[0,"eplace(\""],[1,","],[0,"\")\n}\n?>"]],"start1":132,"start2":132,"length1":15,"length2":16}]],"length":148,"saved":false}
+{"ts":1375985742244,"patch":[[{"diffs":[[0,"lace(\",\""],[1,", \"\""],[0,")\n}\n?>"]],"start1":134,"start2":134,"length1":14,"length2":18}]],"length":152,"saved":false}
+{"ts":1375985745616,"patch":[[{"diffs":[[0,"e(\",\", \""],[1,", "],[0,"\")\n}\n?>"]],"start1":137,"start2":137,"length1":15,"length2":17}]],"length":154,"saved":false}
+{"ts":1375985763641,"patch":[[{"diffs":[[0,"\", \", \")"],[1," . \" \""],[0,"\n}\n?>"]],"start1":141,"start2":141,"length1":13,"length2":19}]],"length":160,"saved":false}
+{"ts":1375985764240,"patch":[[{"diffs":[[0," \") . \" "],[1,"po"],[0,"\"\n}\n?>"]],"start1":146,"start2":146,"length1":14,"length2":16}]],"length":162,"saved":false}
+{"ts":1375985766564,"patch":[[{"diffs":[[0,") . \" po"],[1,"ints"],[0,"\"\n}\n?>"]],"start1":148,"start2":148,"length1":14,"length2":18}]],"length":166,"saved":false}
+{"ts":1375985768654,"patch":[[{"diffs":[[0,"\" points"],[1,"<br"],[0,"\"\n}\n?>"]],"start1":152,"start2":152,"length1":14,"length2":17}]],"length":169,"saved":false}
+{"ts":1375985774284,"patch":[[{"diffs":[[0,"oints<br"],[-1,"\""],[1," />\";"],[0,"\n}\n?>"]],"start1":155,"start2":155,"length1":14,"length2":18}]],"length":173,"saved":false}
+{"ts":1375985778071,"patch":[[{"diffs":[[0,"br />\";\n"],[1,"    echo $\n"],[0,"}\n?>"]],"start1":161,"start2":161,"length1":12,"length2":23}]],"length":184,"saved":false}
+{"ts":1375985780578,"patch":[[{"diffs":[[0,"  echo $"],[1,"html"],[0,"\n}\n?>"]],"start1":171,"start2":171,"length1":13,"length2":17}]],"length":188,"saved":false}
+{"ts":1375985785149,"patch":[[{"diffs":[[0,") {\n    "],[1,"4"],[0,"html = s"]],"start1":112,"start2":112,"length1":16,"length2":17}]],"length":189,"saved":false}
+{"ts":1375985787547,"patch":[[{"diffs":[[0,"    "],[-1,"4"],[1,"$"],[0,"html"]],"start1":116,"start2":116,"length1":9,"length2":9}]],"length":189,"saved":false}
+{"ts":1375985802645,"patch":[[{"diffs":[[0,"= $_"],[-1,"POST"],[1,"REQ"],[0,"[\"em"]],"start1":13,"start2":13,"length1":12,"length2":11},{"diffs":[[0,"ho $html"],[1,";"],[0,"\n}\n?>"]],"start1":175,"start2":175,"length1":13,"length2":14}]],"length":189,"saved":false}
+{"ts":1375985803724,"patch":[[{"diffs":[[0," = $_REQ"],[1,"UEST"],[0,"[\"email\""]],"start1":12,"start2":12,"length1":16,"length2":20}]],"length":193,"saved":false}

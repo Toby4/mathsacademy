@@ -1,3 +1,10 @@
+<script>
+function formSubmit()
+{
+document.getElementById("form_app").submit();
+}
+</script>
+
 <form name="calc" action="stratifiedcalcprocess.php" method="post" id="form_app">
 
     <div class="app">

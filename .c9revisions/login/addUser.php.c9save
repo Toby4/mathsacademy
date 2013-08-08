@@ -1,0 +1,14 @@
+{"ts":1375967097149,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":true,"ts":1375967097904,"patch":[[{"diffs":[[1,"<?"]],"start1":0,"start2":0,"length1":0,"length2":2}]],"length":2,"saved":false}
+{"ts":1375967100146,"patch":[[{"diffs":[[0,"<?"],[1,"php\n\n\n\n?"]],"start1":0,"start2":0,"length1":2,"length2":10}]],"length":10,"saved":false}
+{"ts":1375967103564,"patch":[[{"diffs":[[0,"php\n\n\n\n?"],[1,">"]],"start1":2,"start2":2,"length1":8,"length2":9}]],"length":11,"saved":false}
+{"ts":1375967179073,"patch":[[{"diffs":[[0,"<?php\n"],[1,"$email = "],[0,"\n\n\n?>"]],"start1":0,"start2":0,"length1":11,"length2":20}]],"length":20,"saved":false}
+{"ts":1375967184026,"patch":[[{"diffs":[[0,"p\n$e"],[-1,"mail = "],[0,"\n\n\n?"]],"start1":4,"start2":4,"length1":15,"length2":8}]],"length":13,"saved":false}
+{"ts":1375967188976,"patch":[[{"diffs":[[0,"php\n"],[-1,"$e"],[1,"fopen(\"\")"],[0,"\n\n\n?"]],"start1":2,"start2":2,"length1":10,"length2":17}]],"length":20,"saved":false}
+{"ts":1375967189800,"patch":[[{"diffs":[[0,"\nfopen(\""],[1,"d"],[0,"\")\n\n\n?>"]],"start1":5,"start2":5,"length1":15,"length2":16}]],"length":21,"saved":false}
+{"ts":1375967191529,"patch":[[{"diffs":[[0,"fopen(\"d"],[1,"b/"],[0,"\")\n\n\n?>"]],"start1":6,"start2":6,"length1":15,"length2":17}]],"length":23,"saved":false}
+{"ts":1375967194530,"patch":[[{"diffs":[[0,"pen(\"db/"],[1,"$email"],[0,"\")\n\n\n?>"]],"start1":8,"start2":8,"length1":15,"length2":21}]],"length":29,"saved":false}
+{"ts":1375967196715,"patch":[[{"diffs":[[0,"/$email\""],[1,", \"r+\""],[0,")\n\n\n?>"]],"start1":15,"start2":15,"length1":14,"length2":20}]],"length":35,"saved":false}
+{"ts":1375967199182,"patch":[[{"diffs":[[0,", \"r"],[-1,"+"],[0,"\")\n\n"]],"start1":23,"start2":23,"length1":9,"length2":8}]],"length":34,"saved":false}
+{"ts":1375967201012,"patch":[[{"diffs":[[0,"\", \""],[-1,"r"],[1,"w+"],[0,"\")"],[1,";"],[0,"\n\n\n?"]],"start1":22,"start2":22,"length1":11,"length2":13}]],"length":36,"saved":false}
+{"ts":1375967203563,"patch":[[{"diffs":[[0," \"w+\");\n"],[-1,"\n\n"],[0,"?>"]],"start1":24,"start2":24,"length1":12,"length2":10}]],"length":34,"saved":false}

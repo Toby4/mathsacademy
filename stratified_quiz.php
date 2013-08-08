@@ -6,8 +6,13 @@ include("inc/css.php");
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
+
+<button id='quiz_start'>Click to start</button>
 <script>
-var secondsLeft = 121;
+$("#quiz_start").on("click", function() {
+    $("#quiz").show();
+    $("#quiz_start").hide();
+    var secondsLeft = 121;
 $("#timer span").text(secondsLeft);
 var t=setInterval(incrementTimeMaybeKillPage, 1000);
 
@@ -25,7 +30,9 @@ console.log("hooray");
 function questionComplete(){
     t.clearTimeout();
 }
+});
 </script>
+<div id='quiz'>
 <section>
 <form id="form" action="stratified_process.php" method="post">
 <h3>1. What is the best definition for stratified sampling?</h3>
@@ -117,7 +124,7 @@ function questionComplete(){
 <input type="radio" name="q7" class="radio_button" value="a1" /><span>5</span><br />
 <input type="radio" name="dummy" class="radio_button" value="dummy" /><span>7</span><br />
 <input type="radio" name="q7" class="radio_button" value="a2" /><span>4</span><br />
-<input type="radio" name="dummy" class="radio_button" value="dummy" /><span>4</span><br />
+<input type="radio" name="dummy" class="radio_button" value="dummy" /><span>6</span><br />
 <input type="radio" name="q7" class="radio_button" value="a3" /><span>4.5</span><br />
 <p>(1 mark)</p>
 <br /><br />
@@ -181,3 +188,4 @@ function questionComplete(){
 
 
 <h3 id="timer">You have <span></span> seconds left</h3>
+</div>

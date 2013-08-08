@@ -130,7 +130,6 @@ section#profile {
     border: 5px solid #e3e3e3;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
     font-family: 'Nunito',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-
 }
  
 h3#user {
@@ -140,6 +139,7 @@ h3#user {
 section#img {
     width: 50%;
     float: left;
+    padding-top: 10px;
     
 }
 section#userid {
@@ -198,4 +198,54 @@ button.facebook-button:active {
 	box-shadow:         inset 0 0 5px #000000;
 }
 
+#calculator {
+    display: none;
+	margin-left: 15px;
+}
 
+.calculator-arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid black;
+	margin-left: 120px;
+}
+
+.calculator-box-wrap {
+	width: 250px;
+	height: 350px;
+	background-color: #000;
+	border-radius: 10px;
+}
+
+.calculator-fill-bar {
+	height: 15px;
+}
+
+.calculator-inside-box {
+	background-color: #fff;
+	width: 220px;
+	height: 320px;
+	border-radius: 10px;
+	margin-left: 15px;
+    overflow: scroll;
+}
+
+button#calculator-button {
+    margin-left: 60px;
+}
+
+input[type='text'] {
+    
+}
+
+video {
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+button.md-trigger {
+    display:none;
+}

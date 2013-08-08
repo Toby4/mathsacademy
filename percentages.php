@@ -49,7 +49,6 @@ For example, 45% (read as “forty-five percent”) is equal to 45/100, or 0.45.
 		$("#quiz-content").slideDown();
 	});
 </script>
-
 <?php
 include ("inc/footer.php");
 ?> 

@@ -32,12 +32,12 @@
     padding: 1%;
     width: 68.5%;
     margin-left: 28.5%;
-    position: absolute;
 }
                     
 .quote {
     padding: 10px;
     border: 2px solid #e3e3e3;
+    margin: 15px 0;
 }
 
 .homepage-content-hide {
@@ -45,8 +45,17 @@
 }
 
 #course-content {
+    position: relative;
     display: none;
-    /*DO NOT CHANGE THE MARGIN TOP. TYVM*/
+}
+
+#homepage-content {
+    position: absolute;
+}
+
+#homepage-content p {
+    font-size: 1em;
+    line-height: 24px;
 }
 
 #box1 #main-link {
@@ -103,4 +112,12 @@ a {
 
 #1-course-list, #2-course-list, #3-course-list, #4-course-list, #5-course-list {
     display: none;
+}
+
+#quiz {
+    display :none;
+}
+
+a#nested-link:hover {
+    color: #8c8c8c;
 }

@@ -23,9 +23,9 @@ navigator.id.watch({
         success: function(res, status, xhr) {
             logoutbutton();
             var email = res;
-            var username = email.substring(0, email.indexOf("@"));
+            var username = email.split("@");
             $(document).ready(function() {                   
-                $("#user").html(username + "<br />" + at);
+                $("#user").html(username[0] + "<br />" + username[1]);
                 gravatar(email);
             });      
         },
@@ -34,9 +34,6 @@ navigator.id.watch({
             alert("Login failure: " + err);
         }
     });
-    
-    
-    
  },
   onlogout: function() {
 
@@ -55,6 +52,5 @@ $("document").ready(function() {
     });
     
 });
-
 
 

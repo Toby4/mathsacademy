@@ -6,7 +6,13 @@ echo "<link href='css/quiz.css' rel='stylesheet' type='text/css' />";
 ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>
+
+<button id='quiz_start'>Click to start</button>
 <script>
+$("#quiz_start").on("click", function() {
+    $("#quiz").show();
+    $("#quiz_start").hide();
+
 var secondsLeft = 141;
 $("#timer span").text(secondsLeft);
 var t=setInterval(incrementTimeMaybeKillPage, 1000);
@@ -25,7 +31,9 @@ console.log("hooray");
 function questionComplete(){
     t.clearTimeout();
 }
+});
 </script>
+<div id='quiz'>
 <form id="form" action="percentage_process.php" method="post">
 <h3>1. A company receives 1250 orders in December. It has a January sale. It receives 1430 orders in January. Work out the percentage increase in orders.</h3> 
 <input type="text" name="q1" class="text" placeholder="Answer" /><br />
@@ -74,5 +82,5 @@ Work out the percentage profit.</h3>
 
 </form>
 
-
 <h3 id="timer">You have <span></span> seconds left</h3>
+</div>

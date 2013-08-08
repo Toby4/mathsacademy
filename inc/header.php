@@ -1,4 +1,14 @@
-<?php session_start(); ?>
+<?php
+
+session_start();
+
+if (!isset($_COOKIE['visited']))
+{
+    setcookie('visited', '1', time() + (3600 * 24 * 30 * 365)); 
+}
+
+?>
+
 <html>
     <head>
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -18,16 +28,10 @@
         <script src="js/animate.js" type="text/javascipt"></script>
         <script src="js/homepage.js"></script>
         
-        
-        
         <script src="js/modernizr.custom.js"></script>
-        
-        <script>
-           
-        </script>
 
         
-    </head>
+        </head>
     <body>
         <nav id="nav1">
         <header>
@@ -38,19 +42,31 @@
         	 <li><a id="courses-nav" href='#'>Courses</a></li>
         	</ul>
         <button class="login-button" id="login">Login</button>
+        <button class="md-trigger" data-modal="modal-11">Super Scaled</button>
         </nav>
     <!-- END OF NAV --->
     
     
     <!-- Start of aside --->
     <aside id="left">
-    <section id="profile">
-    <section id="img">
-    <img id="gravatar" />
-    </section id="img">
-    <section id="user">
-    <h3 id="user"></h3>
-    </section>
+    
+    <!--Start of profile--->
+        <section id="profile">
+        
+            <section id="img">
+                <img id="gravatar" />
+            </section>
+            
+            <section id="userid">
+                <h3 id="user"></h3>
+            </section>
+            
+            <section id="results">
+            
+            </section>
+            
+        </section>
+    <!-- End of profile --->
    
    <!--<div id="progressbar">
           <div></div>
@@ -58,13 +74,21 @@
     </aside>
 <!-- START OF FACEBOOK LOGIN SCREEN -->
 
-    	<div class="md-modal md-effect-7" id="modal-7">
-			<div class="md-content" id="login">
-				<h3>Login With Facebook</h3>
+    	<div class="md-modal md-effect-11" id="modal-11">
+			<div class="md-content">
+				<h3>Welcome!</h3>
 				<div>
+                <video id="video" >
+                 <source src="../vid/school.mp4" type="video/mp4">
+                 <source src="../vid/school.ogv" type="video/ogg">
+                 <source src="../vid/movie.webm" type="video/webm">
+                You're using a crappy browser, have slow internet or you have javascript disabled.
+                </video>
                 
-                
-				<button class="md-close">Close me!</button>
+				<button onclick="  
+                var video = document.getElementById('video');
+                  video.play();" 
+                class="md-close">Close me!</button>
 				</div>
 			</div>
 		</div>
@@ -75,6 +99,27 @@
         <script src="js/cssParser.js"></script>
         <script src="js/classie.js"></script>
         <script src="js/modalEffects.js"></script>
+<?php
 
+$cookieValue = $_COOKIE['visited'];
 
+if ($cookieValue == true)
+{
+  echo "<script> console.log('Cookie found!'); </script>";
+}
+else
+{
 
+  echo "
+  <script>
+  function firstTime() {
+  $('.md-trigger').click();
+  var video = document.getElementById('video');
+  video.play();
+  };
+ 
+  </script>
+  ";
+  }
+?>
+        <script> firstTime()</script>

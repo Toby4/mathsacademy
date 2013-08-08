@@ -124,11 +124,9 @@ if (isset($_POST['q10'])) {
 
 echo "<section id = 'box1'><h1 id = 'title_h1'>You scored ".$score." / 10</h1>";
 
-dbAddQuiz("Stratified sampling quiz", $score);
-
 switch ($score) {
     case 0:
-        echo "<p>Teribble, just terribble.</p><img src='img/u.png' alt='u grade' /></section>";
+        echo "<p>Terrible, just terrible.</p><img src='img/u.png' alt='u grade' /></section>";
         break;
     case 1:
         echo "<p>You got some serious revising to do.</p><img src='img/f.png' alt='f grade' /></section>";
@@ -164,17 +162,29 @@ switch ($score) {
 }   
 }
 
-echo "</section>";
+$thing = $score;
 
+echo "</section>";
+include ("login/quiz.php");
 ?>
 
 <script>
-$('document').ready(function(){
-    var score = "<?php echo $score; ?>";
-    console.log("You scored "+ score + "/10 on the stratified sampling quiz."); 
-    $('section').append('<p id = "test">You scored '+ score + '/10 on the stratified sampling quiz</p>');
-    $('#test').hide();
-    console.log($('#test'))
-})
+    $('document').ready(function(){
+        var score = "<?php echo $thing; ?>";
+        console.log(score);
+        var score_script = "You have scored " + score + "/10 on the stratified sampling quiz."
+        console.log(score_script)
+        var quiz_name = "stratified-sampling"
+         
+         $.ajax({
+        url: "login/quiz.php",
+        type: 'POST',
+        data: {score:score, quiz_name:quiz_name},
+        success: function(response){
+            console.log(response);
+        }
+    });
+    });
 
 </script>
+

@@ -48,10 +48,32 @@
     <!-- Start of aside --->
     <aside id="left">
     <h1 class="title_h1">Feed</h1>
+        <p><button id="calculator-button" href="#">Calculator</button></p>
+	    <div id="calculator">
+		    <div class="calculator-arrow-up"></div>
+		    <div class="calculator-box-wrap">
+			    <div class="calculator-fill-bar"></div>
+			    <div class="calculator-inside-box"><iframe src="inc/stratifiedcalcprocess.php" scrolling="no" seamless="seamless" height="450px"></iframe>
+			</div>
+		</div>
+	
+	
+<script type="text/javascript">
+	$(document).ready(function(){
+ 
+    	$("#calculator").hide();
+      	$("#calculator-button").show();
+
+       	$('#calculator-button').click(function(){
+	       	$("#calculator").toggle();
+});
+ 
+});
+</script>
     <!--    <div id="progressbar">
           <div></div>
         </div> -->
-    </aside>
+    </aside 
 <!-- START OF FACEBOOK LOGIN SCREEN -->
 
     	<div class="md-modal md-effect-7" id="modal-7">
