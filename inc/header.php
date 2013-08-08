@@ -44,9 +44,13 @@
     
     <!-- Start of aside --->
     <aside id="left">
-   <img id="gravatar" />
-   <h3 id="user"></h3>
-   
+    <section id="profile">
+    <section id="img">
+    <img id="gravatar" />
+    </section id="img">
+    <section id="user">
+    <h3 id="user"></h3>
+    </section>
    
    <!--<div id="progressbar">
           <div></div>

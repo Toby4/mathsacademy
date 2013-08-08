@@ -1,6 +1,8 @@
 <?php
 $page = "Percentage quiz";
 include("inc/css.php");
+
+echo "<link href='css/quiz.css' rel='stylesheet' type='text/css' />";
 ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 </script>

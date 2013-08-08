@@ -1,7 +1,7 @@
 <?php
 $page = "Percentage quiz";
 include ("inc/css.php");
-include ("inc/header.php");
+include ("inc/header2.php");
 include ("inc/script.php");
 $score = 0;
 

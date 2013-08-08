@@ -1,5 +1,6 @@
 <?php
 session_start(); 
+include("db.php");
 $url = 'https://verifier.login.persona.org/verify';
 
 $assert = filter_input(
@@ -26,8 +27,9 @@ curl_close($ch);
 
 $jsondecode =  json_decode($result, true);
 $email = $jsondecode["email"];
+dbAddUser($email);
+$_SESSION["email"] = $email;
 echo $email;
 
-$_SESSION["email"] = $email;
 
 ?>

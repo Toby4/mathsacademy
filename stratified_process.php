@@ -2,8 +2,8 @@
 $page = "Stratified sampling quiz";
 include ("inc/css.php");
 include ("inc/script.php");
-include ("inc/header.php");
-
+include ("inc/header2.php");
+include ("login/db.php");
 
 
 echo "<link href='css/quiz.css' rel='stylesheet' type='text/css' />";
@@ -124,6 +124,7 @@ if (isset($_POST['q10'])) {
 
 echo "<section id = 'box1'><h1 id = 'title_h1'>You scored ".$score." / 10</h1>";
 
+dbAddQuiz("Stratified sampling quiz", $score);
 
 switch ($score) {
     case 0:

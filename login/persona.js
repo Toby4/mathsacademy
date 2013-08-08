@@ -24,7 +24,6 @@ navigator.id.watch({
             logoutbutton();
             var email = res;
             var username = email.substring(0, email.indexOf("@"));
-            var at = "";
             $(document).ready(function() {                   
                 $("#user").html(username + "<br />" + at);
                 gravatar(email);

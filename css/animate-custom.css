@@ -979,7 +979,7 @@
 	}
 }
 
-.fadeInUpBig {
+.fadeInUpBig  {
 	-webkit-animation-name: fadeInUpBig;
 	-moz-animation-name: fadeInUpBig;
 	-o-animation-name: fadeInUpBig;
@@ -1146,22 +1146,22 @@
 }
 @-webkit-keyframes fadeOut {
 	0% {opacity: 1;}
-	100% {opacity: 0; position: absolute;}
+	100% {opacity: 0;}
 }
 
 @-moz-keyframes fadeOut {
 	0% {opacity: 1;}
-	100% {opacity: 0; position: absolute;}
+	100% {opacity: 0;}
 }
 
 @-o-keyframes fadeOut {
 	0% {opacity: 1;}
-	100% {opacity: 0; position: absolute;}
+	100% {opacity: 0;}
 }
 
 @keyframes fadeOut {
 	0% {opacity: 1;}
-	100% {opacity: 0; position: absolute;}
+	100% {opacity: 0;}
 }
 
 .fadeOut {

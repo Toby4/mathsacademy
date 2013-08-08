@@ -31,7 +31,7 @@ function questionComplete(){
 <h3>1. What is the best definition for stratified sampling?</h3>
 <input type="radio" name="q1" class="radio_button" value="a1" /><span>A technique used to record data from questionnaires.</span></span><br />
 <input type="radio" name="q1" class="radio_button" value="a2" /><span>Each element of the population has a equal chance of being selected.</span><br />
-<input type="radio" name="q1" class="radio_button" value="a3" /><span>The population is divided into groups and then random samples are taken in proportion to group sizes.</span><br />
+<input type="radio" name="q1" class="radio_button" value="a3" /><span>The population is divided into groups and then participants are taken in proportion to group sizes.</span><br />
 <p>(1 mark)</p>
 <br /><br />
 </section>
