@@ -32,8 +32,7 @@
     padding: 1%;
     width: 68.5%;
     margin-left: 28.5%;
-
-    }
+}
                     
 .quote {
     padding: 10px;
@@ -72,15 +71,19 @@ h3, h2, p, label span {
     padding-right: auto;
 }
 
-.nested-link {
+#nested-link {
     color: #333;
     text-decoration: none;
     font-family: 'Nunito', 'sans-serif';
     margin: 10px;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
- a {
+a#nested-link {
+    color: #666;
+}
+
+a {
     text-decoration: none;
 }
 

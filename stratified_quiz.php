@@ -1,5 +1,5 @@
 <?php
-$page = "Basic operators quiz";
+$page = "Stratified sampling quiz";
 include("inc/css.php");
 ?>
 <link href="css/quiz.css" rel="stylesheet" type="text/css" />

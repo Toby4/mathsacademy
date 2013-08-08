@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 <html>
     <head>
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -9,8 +9,11 @@
         <?php include("inc/css.php"); ?>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src='https://cdn.firebase.com/v0/firebase.js'></script>
         <script src="//login.persona.org/include.js"></script>
+        <script src="login/firebase.js"></script>
         <script src="login/persona.js"></script>
+        <script src="login/gravatar.js"></script>
         <script src="js/alex.js"></script>
         <script src="js/animate.js" type="text/javascipt"></script>
         <script src="js/homepage.js"></script>
@@ -19,6 +22,9 @@
         
         <script src="js/modernizr.custom.js"></script>
         
+        <script>
+           
+        </script>
 
         
     </head>
@@ -32,19 +38,15 @@
         	 <li><a id="courses-nav" href='#'>Courses</a></li>
         	</ul>
         <button class="login-button" id="login">Login</button>
-           <?php
-            if($user) {
-                echo "Logged in! - $user";
-            } else {
-                echo "<a href='$loginUrl'>Login</a>";
-            }
-            ?>
         </nav>
     <!-- END OF NAV --->
     
     
     <!-- Start of aside --->
     <aside id="left">
+   <img id="gravatar" />
+   <h3 id="user"></h3>
+   
    
    <!--<div id="progressbar">
           <div></div>
@@ -57,13 +59,6 @@
 				<h3>Login With Facebook</h3>
 				<div>
                 
-           <?php
-            if($user) {
-                echo "Logged in! - $user";
-            } else {
-                echo "<a href='$loginUrl'>Login</a>";
-            }
-            ?>
                 
 				<button class="md-close">Close me!</button>
 				</div>

@@ -1,8 +1,10 @@
 <?php
-$page = "Basic operators quiz";
+$page = "Stratified sampling quiz";
 include ("inc/css.php");
 include ("inc/script.php");
 include ("inc/header.php");
+
+
 
 echo "<link href='css/quiz.css' rel='stylesheet' type='text/css' />";
 
@@ -120,44 +122,58 @@ if (isset($_POST['q10'])) {
     }
 }
 
-echo "<h1>You scored ".$score." / 10</h1>";
+echo "<section id = 'box1'><h1 id = 'title_h1'>You scored ".$score." / 10</h1>";
+
 
 switch ($score) {
     case 0:
-        echo "<p>Teribble, just terribble.</p><img src='img/u.png' alt='u grade' />";
+        echo "<p>Teribble, just terribble.</p><img src='img/u.png' alt='u grade' /></section>";
         break;
     case 1:
-        echo "<p>You got some serious revising to do.</p><img src='img/f.png' alt='f grade' />";
+        echo "<p>You got some serious revising to do.</p><img src='img/f.png' alt='f grade' /></section>";
         break;
     case 2:
-        echo "<p>What the hell was that?</p><img src='img/e.png' alt='e grade' />";
+        echo "<p>What the hell was that?</p><img src='img/e.png' alt='e grade' /></section>";
         break;
     case 3:
-        echo "<p>You got some revising to do.</p><img src='img/d.png' alt='d grade' />";
+        echo "<p>You got some revising to do.</p><img src='img/d.png' alt='d grade' /></section>";
         break;
     case 4:
-        echo "<p>Well done on the pass but you can do better.</p><img src='img/c.png' alt='c grade' />";
+        echo "<p>Well done on the pass but you can do better.</p><img src='img/c.png' alt='c grade' /></section>";
         break;
     case 5:
-        echo "<p>Well done on the pass but you can do better.</p><img src='img/c.png' alt='c grade' />";
+        echo "<p>Well done on the pass but you can do better.</p><img src='img/c.png' alt='c grade' /></section>";
         break;
     case 6:
-        echo "<p>Good job; a little more revision and you're with the pros.</p><img src='img/b.png' alt='b grade' />";
+        echo "<p>Good job; a little more revision and you're with the pros.</p><img src='img/b.png' alt='b grade' /></section>";
         break;
     case 7:
-        echo "<p>Nice work you have done well.</p><img src='img/a.png' alt='a grade' />";
+        echo "<p>Nice work you have done well.</p><img src='img/a.png' alt='a grade' /></section>";
         break;
     case 8:
-        echo "<p>Great score.</p><img src='a_star.png' alt='img/a* grade' />";
+        echo "<p>Great score.</p><img src='a_star.png' alt='img/a* grade' /></section>";
         break;
     case 9:
-        echo "<p>Great score.</p><img src='a_star.png' alt='img/a* grade' />";
+        echo "<p>Great score.</p><img src='a_star.png' alt='img/a* grade' /></section>";
         break;
     case 10:
-        echo "<p>You are a god.</p><img src='a_star.png' alt='img/a* grade' />";
+        echo "<p>You are a god.</p><img src='a_star.png' alt='img/a* grade' /></section>";
         badge("100%");
         break;
 }   
 }
 
+echo "</section>";
+
 ?>
+
+<script>
+$('document').ready(function(){
+    var score = "<?php echo $score; ?>";
+    console.log("You scored "+ score + "/10 on the stratified sampling quiz."); 
+    $('section').append('<p id = "test">You scored '+ score + '/10 on the stratified sampling quiz</p>');
+    $('#test').hide();
+    console.log($('#test'))
+})
+
+</script>

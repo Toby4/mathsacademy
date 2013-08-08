@@ -1,0 +1,5 @@
+{"ts":1375903897375,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1375903904385,"patch":[[{"diffs":[[1,"\nh2#user {\n    font-size: 1.4em;\n}"]],"start1":0,"start2":0,"length1":0,"length2":34}]],"length":34,"saved":false}
+{"ts":1375903907010,"patch":[[{"diffs":[[-1,"\n"],[0,"h2#user "]],"start1":0,"start2":0,"length1":9,"length2":8}]],"length":33,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375904098685,"patch":[[{"diffs":[[0,"1.4em;\n}"],[1,"\n\n"]],"start1":25,"start2":25,"length1":8,"length2":10}]],"length":35,"saved":false}
+{"ts":1375904110809,"patch":[[{"diffs":[[0," 1.4em;\n"],[1,"    float:left;\n"],[0,"}\n\n"]],"start1":24,"start2":24,"length1":11,"length2":27}]],"length":51,"saved":false}

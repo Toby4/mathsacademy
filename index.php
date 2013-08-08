@@ -23,21 +23,21 @@ include ("inc/header.php");
                 <div id="main-link">
                     <a class = "course-link" id ="course-link-1">Algebra</a>
                         <ul id = "1-course-list">
-                            <li><a href="#" class ="nested-link">Formulae and equations</a></li>
-                            <li><a href="#" class ="nested-link">Inequalities</a></li>
-                            <li><a href="#" class ="nested-link">Graphs</a></li>
-                            <li><a href="#" class ="nested-link">Quadratic Equations</a></li>
-                            <li><a href="#" class ="nested-link">Sequences</a></li>
+                            <li><a href="#" id ="nested-link">Formulae and equations</a></li>
+                            <li><a href="#" id ="nested-link">Inequalities</a></li>
+                            <li><a href="#" id ="nested-link">Graphs</a></li>
+                            <li><a href="#" id ="nested-link">Quadratic Equations</a></li>
+                            <li><a href="#" id ="nested-link">Sequences</a></li>
                         </ul>            
                 </div>
                 <div id="main-link">
                     <a class = "course-link" id ="course-link-2">Statistics and Probability</a>
                         <ul id = "2-course-list">
-                            <li><a href="http://mathsacademy.montyman100.c9.io/stratified-sampling.php" class ="nested-link">Stratified Sampling</a></li>
-                            <li><a href="#" class ="nested-link">Percentages</a></li>
-                            <li><a href="#" class ="nested-link">Representing Data</a></li>
-                            <li><a href="#" class ="nested-link">Probability</a></li>
-                            <li><a href="#" class ="nested-link">Questionaires</a></li>
+                            <li><a href="http://mathsacademy.montyman100.c9.io/stratified-sampling.php" id ="nested-link">Stratified Sampling</a></li>
+                            <li><a href="http://mathsacademy.montyman100.c9.io/percentages.php" id ="nested-link">Percentages</a></li>
+                            <li><a href="#" id ="nested-link">Representing Data</a></li>
+                            <li><a href="#" id ="nested-link">Probability</a></li>
+                            <li><a href="#" id ="nested-link">Questionaires</a></li>
 
                             
                         </ul>            
@@ -45,21 +45,21 @@ include ("inc/header.php");
                 <div id="main-link">
                     <a class = "course-link" id ="course-link-3">Numbers and Fractions</a>
                         <ul id = "3-course-list">
-                            <li><a href="#" class ="nested-link">Formulae and equations</a></li>
-                            <li><a href="#" class ="nested-link">Inequalities</a></li>
-                            <li><a href="#" class ="nested-link">Graphs</a></li>
-                            <li><a href="#" class ="nested-link">Quadratic Equations</a></li>
-                            <li><a href="#" class ="nested-link">Sequences</a></li>
+                            <li><a href="#" id ="nested-link">Formulae and equations</a></li>
+                            <li><a href="#" id ="nested-link">Inequalities</a></li>
+                            <li><a href="#" id ="nested-link">Graphs</a></li>
+                            <li><a href="#" id ="nested-link">Quadratic Equations</a></li>
+                            <li><a href="#" id ="nested-link">Sequences</a></li>
                         </ul>            
                 </div>
                 <div id="main-link">
                     <a class = "course-link" id ="course-link-4">Geometry and measures</a>
                         <ul id = "4-course-list">
-                            <li><a href="#" class ="nested-link">Symmetry</a></li>
-                            <li><a href="#" class ="nested-link">Polygons</a></li>
-                            <li><a href="#" class ="nested-link">Trigonometry</a></li>
-                            <li><a href="#" class ="nested-link">Vectors</a></li>
-                            <li><a href="#" class ="nested-link">3D shapes</a></li>
+                            <li><a href="#" id ="nested-link">Symmetry</a></li>
+                            <li><a href="#" id ="nested-link">Polygons</a></li>
+                            <li><a href="#" id ="nested-link">Trigonometry</a></li>
+                            <li><a href="#" id ="nested-link">Vectors</a></li>
+                            <li><a href="#" id ="nested-link">3D shapes</a></li>
                         </ul>            
                 </div>                  
         </section>

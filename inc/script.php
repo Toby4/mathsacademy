@@ -17,10 +17,17 @@
         $compressed = str_replace(" ", "", $file);
         return $compressed;
     }
-    function badge($badge) {
+   
+   function badge($badge) {
         $ip = $_SERVER['REMOTE_ADDR'];
         $file = fopen("db/$ip", "c");
         fwrite($file, $badge);
     }
-    
+
 ?>
+
+<script>
+ 
+var score = "<?php echo $score; ?>";
+console.log(score); 
+</script>

@@ -1,0 +1,36 @@
+{"ts":1375903391541,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<?php\n    function datauri($filename, $type) {\n        $file = file_get_contents($filename);\n        $data = base64_encode($file);\n        $uri = \"data:$type;base64,$data\";\n        return $uri;\n    }\n    \n    function domainname() {\n        $servername = $_SERVER['SERVER_NAME'];\n        $domain = \"http://$servername\";\n        return $domain;\n    }\n    \n    function compress($filename) {\n        $file = file_get_contents($filename);\n        $compressed = str_replace(\" \", \"\", $file);\n        return $compressed;\n    }\n    function badge($badge) {\n        $ip = $_SERVER['REMOTE_ADDR'];\n        $file = fopen(\"db/$ip\", \"c\");\n        fwrite($file, $badge);\n    }\n    \n?>"]],"start1":0,"start2":0,"length1":0,"length2":671}]],"length":671}
+{"contributors":[],"silentsave":true,"ts":1375903407163,"patch":[[{"diffs":[[0,"d;\n    }\n   "],[1,"\n  "],[0," function ba"]],"start1":512,"start2":512,"length1":24,"length2":27}]],"length":674,"saved":false}
+{"ts":1375903411194,"patch":[[{"diffs":[[0," }\n    \n"],[1,"    \n    \n"],[0,"?>"]],"start1":664,"start2":664,"length1":10,"length2":20}]],"length":684,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375903668469,"patch":[[{"diffs":[[0,";\n    }\n    "],[1,"\n\n    "],[0,"\n    \n    \n?"]],"start1":659,"start2":659,"length1":24,"length2":30}]],"length":690,"saved":false}
+{"ts":1375903669654,"patch":[[{"diffs":[[0," }\n    \n"],[-1,"\n"],[0,"    \n   "]],"start1":664,"start2":664,"length1":17,"length2":16}]],"length":689,"saved":false}
+{"ts":1375903670268,"patch":[[{"diffs":[[0,"dge);\n    }\n"],[-1,"    "],[0,"\n    \n    \n "]],"start1":655,"start2":655,"length1":28,"length2":24}]],"length":685,"saved":false}
+{"ts":1375903671596,"patch":[[{"diffs":[[0,";\n    }\n"],[1,"<"],[0,"\n    \n  "]],"start1":659,"start2":659,"length1":16,"length2":17}]],"length":686,"saved":false}
+{"ts":1375903673990,"patch":[[{"diffs":[[0,"\n    }\n<"],[1,"?p>"],[0,"\n    \n  "]],"start1":660,"start2":660,"length1":16,"length2":19}]],"length":689,"saved":false}
+{"ts":1375903675292,"patch":[[{"diffs":[[0,"    }\n<?"],[-1,"p"],[0,">\n    \n "]],"start1":661,"start2":661,"length1":17,"length2":16}]],"length":688,"saved":false}
+{"ts":1375903677919,"patch":[[{"diffs":[[0,";\n    }\n"],[-1,"<?"],[0,">\n    \n "]],"start1":659,"start2":659,"length1":18,"length2":16}]],"length":686,"saved":false}
+{"ts":1375903678906,"patch":[[{"diffs":[[0,";\n    }\n"],[-1,">"],[0,"\n    \n  "]],"start1":659,"start2":659,"length1":17,"length2":16}]],"length":685,"saved":false}
+{"ts":1375903685336,"patch":[[{"diffs":[[0," }\n\n"],[-1,"    \n    \n    \n"],[0,"?>"]],"start1":664,"start2":664,"length1":21,"length2":6}]],"length":670,"saved":false}
+{"ts":1375903687397,"patch":[[{"diffs":[[0,"   }\n\n?>"],[1,"\n\n<script>\n \nvar whatever = \"<?= $phpVar ?>\";\n \n</script>"]],"start1":662,"start2":662,"length1":8,"length2":65}]],"length":727,"saved":false}
+{"ts":1375903694703,"patch":[[{"diffs":[[0,"var "],[-1,"whatever = \"<?= $phpVar ?>\";"],[0,"\n \n<"]],"start1":683,"start2":683,"length1":36,"length2":8}]],"length":699,"saved":false}
+{"ts":1375903697285,"patch":[[{"diffs":[[0,">\n \nvar "],[1,"score = "],[0,"\n \n</scr"]],"start1":679,"start2":679,"length1":16,"length2":24}]],"length":707,"saved":false}
+{"ts":1375903701970,"patch":[[{"diffs":[[0,"var "],[-1,"score = "],[1,"whatever = \"<?= $phpVar ?>\";"],[0,"\n \n<"]],"start1":683,"start2":683,"length1":16,"length2":36}]],"length":727,"saved":false}
+{"ts":1375903704235,"patch":[[{"diffs":[[0,"var "],[-1,"whatever"],[1,"score"],[0," = \""]],"start1":683,"start2":683,"length1":16,"length2":13}]],"length":724,"saved":false}
+{"ts":1375903707444,"patch":[[{"diffs":[[0,"?= $"],[-1,"phpVar"],[1,"score"],[0," ?>\""]],"start1":697,"start2":697,"length1":14,"length2":13}]],"length":723,"saved":false}
+{"ts":1375903716293,"patch":[[{"diffs":[[0,"re ?>\";\n"],[1,"console.log\n"],[0," \n</scri"]],"start1":704,"start2":704,"length1":16,"length2":28}]],"length":735,"saved":false}
+{"ts":1375903716899,"patch":[[{"diffs":[[0,"sole.log"],[1,"()"],[0,"\n \n</scr"]],"start1":715,"start2":715,"length1":16,"length2":18}]],"length":737,"saved":false}
+{"ts":1375903717637,"patch":[[{"diffs":[[0,"ole.log("],[1,"''"],[0,")\n \n</sc"]],"start1":716,"start2":716,"length1":16,"length2":18}]],"length":739,"saved":false}
+{"ts":1375903724469,"patch":[[{"diffs":[[0,"log("],[-1,"'')\n"],[1,"score);"],[0," \n</"]],"start1":720,"start2":720,"length1":12,"length2":15}]],"length":742,"saved":false}
+{"ts":1375903751967,"patch":[[{"diffs":[[0,"score = "],[-1,"\""],[0,"<?= $sco"]],"start1":687,"start2":687,"length1":17,"length2":16}]],"length":741,"saved":false}
+{"ts":1375903753470,"patch":[[{"diffs":[[0,"score ?>"],[-1,"\""],[0,";\nconsol"]],"start1":700,"start2":700,"length1":17,"length2":16}]],"length":740,"saved":false}
+{"ts":1375903771060,"patch":[[{"diffs":[[0,"$score ?"],[1,"'"],[0,">;\nconso"]],"start1":699,"start2":699,"length1":16,"length2":17}]],"length":741,"saved":false}
+{"ts":1375903772859,"patch":[[{"diffs":[[0,"core = <"],[1,"'"],[0,"?= $scor"]],"start1":688,"start2":688,"length1":16,"length2":17}]],"length":742,"saved":false}
+{"ts":1375903782516,"patch":[[{"diffs":[[0,"e = "],[-1,"<'?= $score ?'>;"],[0,"\ncon"]],"start1":691,"start2":691,"length1":24,"length2":8}]],"length":726,"saved":false}
+{"ts":1375903825459,"patch":[[{"diffs":[[0,"score = "],[1,"<'?= $score ?'>;"],[0,"\nconsole"]],"start1":687,"start2":687,"length1":16,"length2":32}]],"length":742,"saved":false}
+{"ts":1375903829243,"patch":[[{"diffs":[[0," = <"],[-1,"'?= $score"],[1,"?php echo $var;"],[0," ?"],[-1,"'"],[0,">;\nc"]],"start1":692,"start2":692,"length1":21,"length2":25}]],"length":746,"saved":false}
+{"ts":1375903831082,"patch":[[{"diffs":[[0,"score = "],[1,"'"],[0,"<?php ec"]],"start1":687,"start2":687,"length1":16,"length2":17}]],"length":747,"saved":false}
+{"ts":1375903833621,"patch":[[{"diffs":[[0,"$var; ?>"],[1,"'"],[0,";\nconsol"]],"start1":707,"start2":707,"length1":16,"length2":17}]],"length":748,"saved":false}
+{"ts":1375903835449,"patch":[[{"diffs":[[0,"$var; ?>"],[-1,"'"],[1,"\""],[0,";\nconsol"]],"start1":707,"start2":707,"length1":17,"length2":17}]],"length":748,"saved":false}
+{"ts":1375903838315,"patch":[[{"diffs":[[0,"score = "],[-1,"'"],[1,"\""],[0,"<?php ec"]],"start1":687,"start2":687,"length1":17,"length2":17}]],"length":748,"saved":false}
+{"ts":1375903861611,"patch":[[{"diffs":[[0,"ore = \"<"],[-1,"?"],[0,"php echo"]],"start1":689,"start2":689,"length1":17,"length2":16}]],"length":747,"saved":false}
+{"ts":1375903864281,"patch":[[{"diffs":[[0,"ore = \"<"],[1,"?"],[0,"php echo"]],"start1":689,"start2":689,"length1":16,"length2":17}]],"length":748,"saved":false}
+{"ts":1375903869599,"patch":[[{"diffs":[[0,"p echo $"],[-1,"var"],[1,"score"],[0,"; ?>\";\nc"]],"start1":700,"start2":700,"length1":19,"length2":21}]],"length":750,"saved":false}

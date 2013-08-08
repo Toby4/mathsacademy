@@ -6,3 +6,20 @@
     height: 125px;
     margin-top: 20px;
 }
+
+#footer p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer a, a:visited {
+    color: #C0392B;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+#footer a:hover {
+    color : #702119;
+}

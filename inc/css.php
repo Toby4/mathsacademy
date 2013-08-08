@@ -6,3 +6,4 @@
         <link href="css/body.css" rel="stylesheet" type="text/css" />
         <link href="css/footer.css" rel="stylesheet" type="text/css" />
         <link href="css/component.css" rel="stylesheet" type="text/css" />
+        <link href="css/sidebar.css" rel="stylesheet" type="text/css" />

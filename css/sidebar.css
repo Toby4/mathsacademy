@@ -1,0 +1,9 @@
+h2#user {
+    font-size: 1.4em;
+    float:right;
+}
+
+img#gravatar {
+    float:left;
+}
+

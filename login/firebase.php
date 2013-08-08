@@ -1,24 +1,15 @@
 <?php
-include("firebase-php/firebaseLib"); 
+include_once 'php-jwt/Authentication/JWT.php';
+include_once "firebase-token-generator-php/FirebaseToken.php";
 
-$url = 'https://mathsacademy.firebaseio.com/';
-$atoken = '?.json?auth=tJGTQ4vD8KbgcdYx23NdDkrJmh0ibmyvh8ZzlMkJ';
+$secret = "tM5sau8O3lpxw2SQVItqahp7C0wAw0R4xGyqyyqe";
+$tokenGen = new Services_FirebaseTokenGenerator($secret);
+$token = $tokenGen->createToken(array("id" => "example"));
 
-$fb = new fireBase($url);
+// Get data only readable by auth.id = "example".
+//$uri = "https://example.firebaseio.com/.json?auth=".$token;
+//var_dump(file_get_contents($uri));
 
-$todos = array(
-        'name' => 'Pick the milk',
-        'priority' => 1
-        );
-
-$todoPath = '/test/test';
-
-printf("Sending data to %s\n", $todoPath.$atoken);
-    $response = $fb->set($todoPath.$atoken, $todos);
-    printf("Result: %s\n", $response);
-
-    printf("Reading data from %s\n", $todoPath.$atoken);
-    $response = $fb->get($todoPath.$atoken);
-    printf("Result: %s\n", $response);
+echo $token;
 
 ?>

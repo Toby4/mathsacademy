@@ -34,26 +34,20 @@
     <body>
         <nav id="nav1">
         <header>
-            <a id="logo" href="http://yrs_2013.theconartist.c9.io/yrs_2013/"><h1>maths academy.</h1></a>
+            <a id="logo" href="http://mathsacademy.montyman100.c9.io/#"><h1>maths academy.</h1></a>
         </header>
             <ul>
-             <li><a id="home-nav" href="http://yrs_2013.theconartist.c9.io/yrs_2013/index.php#">Home</a></li>
-        	 <li><a id="courses-nav" href='http://yrs_2013.theconartist.c9.io/yrs_2013/index.php#'>Courses</a></li>
+             <li><a id="home-nav" href="http://mathsacademy.montyman100.c9.io/index.php#">Home</a></li>
+        	 <li><a id="courses-nav" href='http://mathsacademy.montyman100.c9.io/index.php#course-content'>Courses</a></li>
         	</ul>
         <button class="login-button" id="login">Login</button>
-           <?php
-            if($user) {
-                echo "Logged in! - $user";
-            } else {
-                echo "<a href='$loginUrl'>Login</a>";
-            }
-            ?>
         </nav>
     <!-- END OF NAV --->
     
     
     <!-- Start of aside --->
     <aside id="left">
+    <h1 class="title_h1">Feed</h1>
     <!--    <div id="progressbar">
           <div></div>
         </div> -->

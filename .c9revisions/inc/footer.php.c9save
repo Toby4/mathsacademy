@@ -1,0 +1,58 @@
+{"ts":1375900404630,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"    <div id=\"footer\">\n        <!--div class=\"fb-like\" data-href=\"http://yrs_2013.theconartist.c9.io/\" data-width=\"450\" data-show-faces=\"true\" data-send=\"true\"></div!-->\n    </div>\n    \n    </body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":204}]],"length":204}
+{"contributors":[],"silentsave":false,"ts":1375900430229,"patch":[[{"diffs":[[0,"div!-->\n"],[1,"        <p>This site was created for <a href=\"https://youngrewiredstate.org/\">Young Rewired State 2013</a> by one of the Brighton Teams.</p>\n        <p>&copy; <a href=\"http://nothingrandom.com\">Benjamin Hollway</a>, Monty Anderson, Alex, Reuban, Joe Farnworth-Mayers</p>\n"],[0,"    </di"]],"start1":161,"start2":161,"length1":16,"length2":287}]],"length":475,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375901813909,"patch":[[{"diffs":[[0,"ay</a>, "],[1,"<a href=\"htt"],[0,"Monty An"]],"start1":377,"start2":377,"length1":16,"length2":28}]],"length":487,"saved":false}
+{"ts":1375901819257,"patch":[[{"diffs":[[0,"ref=\"htt"],[1,"p://montyanderson.co.uk\">"],[0,"Monty An"]],"start1":389,"start2":389,"length1":16,"length2":41}]],"length":512,"saved":false}
+{"ts":1375901822224,"patch":[[{"diffs":[[0,"Anderson"],[1,"</a>"],[0,", Alex, "]],"start1":428,"start2":428,"length1":16,"length2":20}]],"length":516,"saved":false}
+{"ts":1375901924808,"patch":[[{"diffs":[[0,"ay</a>, "],[1,"<a href=\"http://montyanderson.co.uk\">"],[0,"Monty An"]],"start1":377,"start2":377,"length1":16,"length2":53},{"diffs":[[0,"Anderson"],[1,"</a>"],[0,", Alex, "]],"start1":428,"start2":428,"length1":16,"length2":20},{"diffs":[[0,"ex, Reub"],[-1,"a"],[1,"e"],[0,"n, Joe F"]],"start1":444,"start2":444,"length1":17,"length2":17}]],"length":516,"saved":false}
+{"ts":1375901970487,"patch":[[{"diffs":[[0,">, Alex,"],[1," J,"],[0," Reuben,"]],"start1":439,"start2":439,"length1":16,"length2":19}]],"length":519,"saved":false}
+{"ts":1375901971850,"patch":[[{"diffs":[[0," Alex, J"],[1,"aco"],[0,", Reuben"]],"start1":441,"start2":441,"length1":16,"length2":19}]],"length":522,"saved":false}
+{"ts":1375901973318,"patch":[[{"diffs":[[0,"ex, Jaco"],[1,"b"],[0,", Reuben"]],"start1":444,"start2":444,"length1":16,"length2":17}]],"length":523,"saved":false}
+{"ts":1375902008307,"patch":[[{"diffs":[[0,"a>, Alex"],[1," Paraskos"],[0,", Jacob,"]],"start1":438,"start2":438,"length1":16,"length2":25}]],"length":532,"saved":false}
+{"ts":1375902011525,"patch":[[{"diffs":[[0,"s, Jacob"],[1," Co"],[0,", Reuben"]],"start1":454,"start2":454,"length1":16,"length2":19}]],"length":535,"saved":false}
+{"ts":1375902017563,"patch":[[{"diffs":[[0,"Jacob Co"],[1,"ns"],[0,", Reuben"]],"start1":457,"start2":457,"length1":16,"length2":18}]],"length":537,"saved":false}
+{"ts":1375902019228,"patch":[[{"diffs":[[0,", Reuben"],[1," "],[0,", Joe Fa"]],"start1":467,"start2":467,"length1":16,"length2":17}]],"length":538,"saved":false}
+{"ts":1375902023449,"patch":[[{"diffs":[[0," Reuben "],[1,"Down"],[0,", Joe Fa"]],"start1":468,"start2":468,"length1":16,"length2":20}]],"length":542,"saved":false}
+{"ts":1375902024781,"patch":[[{"diffs":[[0,"ben Down"],[1,"es"],[0,", Joe Fa"]],"start1":472,"start2":472,"length1":16,"length2":18}]],"length":544,"saved":false}
+{"ts":1375902173589,"patch":[[{"diffs":[[0,"lway</a>"],[-1,","],[0," <a href"]],"start1":375,"start2":375,"length1":17,"length2":16}]],"length":543,"saved":false}
+{"ts":1375902174513,"patch":[[{"diffs":[[0,"way</a> "],[1,"|"],[0,"<a href="]],"start1":376,"start2":376,"length1":16,"length2":17}]],"length":544,"saved":false}
+{"ts":1375902177120,"patch":[[{"diffs":[[0,"ay</a> |"],[1," "],[0,"<a href="]],"start1":377,"start2":377,"length1":16,"length2":17}]],"length":545,"saved":false}
+{"ts":1375902179623,"patch":[[{"diffs":[[0,"rson</a>"],[-1,","],[1," |"],[0," Alex Pa"]],"start1":433,"start2":433,"length1":17,"length2":18}]],"length":546,"saved":false}
+{"ts":1375902182623,"patch":[[{"diffs":[[0,"Paraskos"],[-1,","],[1," \""],[0," Jacob C"]],"start1":449,"start2":449,"length1":17,"length2":18}]],"length":547,"saved":false}
+{"ts":1375902183917,"patch":[[{"diffs":[[0,"araskos "],[-1,"\""],[1,"|"],[0," Jacob C"]],"start1":450,"start2":450,"length1":17,"length2":17}]],"length":547,"saved":false}
+{"ts":1375902188257,"patch":[[{"diffs":[[0,"cob Cons"],[-1,","],[1," |"],[0," Reuben "]],"start1":462,"start2":462,"length1":17,"length2":18}]],"length":548,"saved":false}
+{"ts":1375902191179,"patch":[[{"diffs":[[0,"wnes"],[-1,","],[1," |"],[0," Joe"]],"start1":482,"start2":482,"length1":9,"length2":10}]],"length":549,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375902203223,"patch":[[{"diffs":[[0," <a "],[-1,"href=\"http://montyanderson.co.uk\"><a "],[0,"href"]],"start1":385,"start2":385,"length1":45,"length2":8},{"diffs":[[0,"rson</a>"],[-1,"</a>"],[0," | Alex "]],"start1":433,"start2":433,"length1":20,"length2":16},{"diffs":[[0,"askos | "],[1,"<>"],[0,"Jacob Co"]],"start1":452,"start2":452,"length1":16,"length2":18}]],"length":551,"saved":false}
+{"ts":1375902206385,"patch":[[{"diffs":[[0,"skos | <"],[1,"a hr"],[0,">Jacob C"]],"start1":453,"start2":453,"length1":16,"length2":20}]],"length":555,"saved":false}
+{"ts":1375902207959,"patch":[[{"diffs":[[0," | <a hr"],[1,"ef=\""],[0,">Jacob C"]],"start1":457,"start2":457,"length1":16,"length2":20}]],"length":559,"saved":false}
+{"ts":1375902222382,"patch":[[{"diffs":[[0,"a href=\""],[1,"\""],[0,">Jacob C"]],"start1":461,"start2":461,"length1":16,"length2":17}]],"length":560,"saved":false}
+{"ts":1375902223974,"patch":[[{"diffs":[[0,"a href=\""],[1,"http://zendesign.hostzi.com/"],[0,"\">Jacob "]],"start1":461,"start2":461,"length1":16,"length2":44}]],"length":588,"saved":false}
+{"ts":1375902227055,"patch":[[{"diffs":[[0,"cob Cons"],[1,"</"],[0," | Reube"]],"start1":501,"start2":501,"length1":16,"length2":18}]],"length":590,"saved":false}
+{"ts":1375902229124,"patch":[[{"diffs":[[0,"b Cons</"],[1,"a>"],[0," | Reube"]],"start1":503,"start2":503,"length1":16,"length2":18}]],"length":592,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375902301823,"patch":[[{"diffs":[[0,"uk\">"],[-1,"Monty Anderson"],[1,"ℳ☺η⊥⑂ Ѧηⅾ℮я﹩◎ᾔ"],[0,"</a>"]],"start1":419,"start2":419,"length1":22,"length2":22}]],"length":592,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375902421931,"patch":[[{"diffs":[[0,"k\">ℳ"],[-1,"☺η⊥⑂ Ѧηⅾ℮я﹩◎ᾔ</"],[1,"ℳ◎ᾔ⊥ƴ Åηⅾℯґ﹩øη"],[0,"a> |"]],"start1":420,"start2":420,"length1":23,"length2":22}]],"length":591,"saved":false}
+{"ts":1375902423952,"patch":[[{"diffs":[[0,"co.uk\">ℳ"],[-1,"ℳ"],[0,"◎ᾔ⊥ƴ Åηⅾ"]],"start1":416,"start2":416,"length1":17,"length2":16}]],"length":590,"saved":false}
+{"ts":1375902440016,"patch":[[{"diffs":[[0,"ⅾℯґ﹩øηa>"],[1,"<"],[0," | Alex "]],"start1":431,"start2":431,"length1":16,"length2":17}]],"length":591,"saved":false}
+{"ts":1375902441853,"patch":[[{"diffs":[[0,"ⅾℯґ﹩øηa>"],[-1,"<"],[0," | Alex "]],"start1":431,"start2":431,"length1":17,"length2":16}]],"length":590,"saved":false}
+{"ts":1375902443817,"patch":[[{"diffs":[[0,"ηⅾℯґ﹩øηa"],[1,"<"],[0,"> | Alex"]],"start1":430,"start2":430,"length1":16,"length2":17}]],"length":591,"saved":false}
+{"ts":1375902445669,"patch":[[{"diffs":[[0,"﹩øηa"],[-1,"<>"],[0," | A"]],"start1":434,"start2":434,"length1":10,"length2":8}]],"length":589,"saved":false}
+{"ts":1375902446283,"patch":[[{"diffs":[[0,"ηⅾℯґ﹩øηa"],[-1," "],[0,"| Alex P"]],"start1":430,"start2":430,"length1":17,"length2":16}]],"length":588,"saved":false}
+{"ts":1375902448845,"patch":[[{"diffs":[[0,"ηⅾℯґ﹩øηa"],[-1,"|"],[0," Alex Pa"]],"start1":430,"start2":430,"length1":17,"length2":16}]],"length":587,"saved":false}
+{"ts":1375902451638,"patch":[[{"diffs":[[0,"ηⅾℯґ﹩øηa"],[1,"|"],[0," Alex Pa"]],"start1":430,"start2":430,"length1":16,"length2":17}]],"length":588,"saved":false}
+{"ts":1375902458293,"patch":[[{"diffs":[[0,"uk\">"],[-1,"Monty Anderson</a> | Alex Paraskos | "],[1,"ℳ◎ᾔ⊥ƴ Åηⅾℯґ﹩øηa|  Alex Paraskos | <a href=\"http://zendesign.hostzi.com/\">"],[0,"Jaco"]],"start1":419,"start2":419,"length1":45,"length2":81},{"diffs":[[0,"cob Cons"],[1,"</a>"],[0," | Reube"]],"start1":498,"start2":498,"length1":16,"length2":20}]],"length":589,"saved":false}
+{"ts":1375902461728,"patch":[[{"diffs":[[0,"ηⅾℯґ﹩øηa"],[1,"</"],[0,"|  Alex "]],"start1":430,"start2":430,"length1":16,"length2":18}]],"length":591,"saved":false}
+{"ts":1375902465183,"patch":[[{"diffs":[[0,"ⅾℯґ﹩øηa<"],[-1,"/"],[0,"|  Alex "]],"start1":431,"start2":431,"length1":17,"length2":16}]],"length":590,"saved":false}
+{"ts":1375902472031,"patch":[[{"diffs":[[0,"uk\">"],[-1,"ℳ◎ᾔ⊥ƴ Åηⅾℯґ﹩øηa|"],[1,"Monty Anderson</a> "],[0," Ale"]],"start1":419,"start2":419,"length1":24,"length2":27}]],"length":591,"saved":false}
+{"ts":1375902474948,"patch":[[{"diffs":[[0,"ηⅾℯґ﹩øηa"],[-1,"<"],[0,"|  Alex "]],"start1":430,"start2":430,"length1":17,"length2":16}]],"length":589,"saved":false}
+{"ts":1375902480947,"patch":[[{"diffs":[[0,"son</a> "],[1,"|"],[0," Alex Pa"]],"start1":434,"start2":434,"length1":16,"length2":17}]],"length":592,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375912496426,"patch":[[{"diffs":[[0," Ale"],[-1,"ℳ◎ᾔ⊥ƴ Åηⅾℯґ﹩øηa|  Alex Paraskos | <a href=\"http://zendesign.hostzi.com/\"><a href=\"http://zendesign.hostzi.com/\">"],[1,"x Paraskos | "],[0,"Jaco"]],"start1":443,"start2":443,"length1":120,"length2":21},{"diffs":[[0,"Cons"],[-1,"</a></a>"],[0," | R"]],"start1":466,"start2":466,"length1":16,"length2":8},{"diffs":[[0,"ownes | "],[1,"<a href="],[0,"Joe Farn"]],"start1":481,"start2":481,"length1":16,"length2":24}]],"length":557,"saved":false}
+{"ts":1375912497880,"patch":[[{"diffs":[[0,"<a href="],[1,"\"\""],[0,"Joe Farn"]],"start1":489,"start2":489,"length1":16,"length2":18}]],"length":559,"saved":false}
+{"ts":1375912499415,"patch":[[{"diffs":[[0,"a href=\""],[1,"tw"],[0,"\"Joe Far"]],"start1":490,"start2":490,"length1":16,"length2":18}]],"length":561,"saved":false}
+{"ts":1375912511005,"patch":[[{"diffs":[[0,"href=\"tw"],[1,"it"],[0,"\"Joe Far"]],"start1":492,"start2":492,"length1":16,"length2":18}]],"length":563,"saved":false}
+{"ts":1375912513979,"patch":[[{"diffs":[[0,"ef=\""],[-1,"twit"],[1,"http:/"],[0,"\"Joe"]],"start1":494,"start2":494,"length1":12,"length2":14}]],"length":565,"saved":false}
+{"ts":1375912515255,"patch":[[{"diffs":[[0,"=\"http:/"],[1,"/www"],[0,"\"Joe Far"]],"start1":496,"start2":496,"length1":16,"length2":20}]],"length":569,"saved":false}
+{"ts":1375912516434,"patch":[[{"diffs":[[0,"tp://www"],[1,".tw"],[0,"\"Joe Far"]],"start1":500,"start2":500,"length1":16,"length2":19}]],"length":572,"saved":false}
+{"ts":1375912520922,"patch":[[{"diffs":[[0,"//www.tw"],[1,"itter.com/jomalomy"],[0,"\"Joe Far"]],"start1":503,"start2":503,"length1":16,"length2":34}]],"length":590,"saved":false}
+{"ts":1375912528209,"patch":[[{"diffs":[[0,"Mayers</"],[1,"a></"],[0,"p>\n    <"]],"start1":544,"start2":544,"length1":16,"length2":20}]],"length":594,"saved":false}
+{"ts":1375912565501,"patch":[[{"diffs":[[0,"omalomy\""],[1,">"],[0,"Joe Farn"]],"start1":522,"start2":522,"length1":16,"length2":17}]],"length":595,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1375913028636,"patch":[[{"diffs":[[0,"\n</html>"],[1,"sad"]],"start1":587,"start2":587,"length1":8,"length2":11}]],"length":598,"saved":false}
+{"ts":1375913030248,"patch":[[{"diffs":[[0,"html"],[-1,">sad"]],"start1":590,"start2":590,"length1":8,"length2":4}]],"length":594,"saved":false}
