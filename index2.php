@@ -1,5 +1,5 @@
  <?php
-include ("inc/header.php");
+include ("inc/header3.php");
 ?>        
     <div id="homepage-content" class="animated fadeIn">    
         <section class = "section" id="box1">
@@ -67,7 +67,7 @@ include ("inc/header.php");
 <script>
 $("#home-nav").on("click", function() {
         $("#homepage-content").show().removeClass().addClass("animated fadeInUpBig");
-    	$("#course-content").removeClass().addClass("animated fadeOut");
+        $("#course-content").removeClass().addClass("animated fadeOut");
         console.log('Clicked');
 });
 

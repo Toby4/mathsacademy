@@ -38,7 +38,7 @@ if (!isset($_COOKIE['visited']))
             <a href="index.php" id="logo"><h1>maths academy.</h1></a>
         </header>
             <ul>
-        	 <li><a id="home-nav" href="#">Home</a></li>
+             <li><a id="home-nav" href="index2.php">Home</a></li>
         	 <li><a id="courses-nav" href='#'>Courses</a></li>
         	</ul>
         <button class="login-button" id="login">Login</button>
@@ -68,7 +68,7 @@ if (!isset($_COOKIE['visited']))
             
         </section>
     <!-- End of profile --->
-   
+   <p>You have completed stratified sampling with 1/10. You need to revise more</p>
    <!--<div id="progressbar">
           <div></div>
         </div>  --->

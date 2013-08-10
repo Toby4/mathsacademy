@@ -12,7 +12,7 @@ include("inc/css.php");
 $("#quiz_start").on("click", function() {
     $("#quiz").show();
     $("#quiz_start").hide();
-    var secondsLeft = 121;
+    var secondsLeft = 120;
 $("#timer span").text(secondsLeft);
 var t=setInterval(incrementTimeMaybeKillPage, 1000);
 
@@ -183,7 +183,18 @@ function questionComplete(){
 <p>(1 mark)</p>
 <br /><br />
 
-<input type="submit" value="Finished" name="submit" />
+<input type="submit" value="Finished" name="submit" id ="submit" />
+
+<script>
+    $('document').ready(function{
+        $('#submit').on('submit', function(){
+            var quiz_name = "stratified sampling"
+            var time = date.getTime()
+            var thing = ('You completed' + quiz_name + 'at' + time)
+            alert(thing)
+        })
+    })
+</script>
 
 </form>
 

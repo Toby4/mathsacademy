@@ -18,8 +18,9 @@ include ("inc/header2.php");
 				<span class="slide-button"></span>
 			</div>
         <div id="definition-content">
-            <p>In statistics, stratified sampling is a method of sampling from a population.
+            <p>In statistics, stratified sampling is a method of sampling from a population.<br />
     When sub-populations vary considerably, it is advantageous to sample each subpopulation (stratum) independently. Stratification is the process of grouping members of the population into relatively homogeneous subgroups before sampling. The strata should be mutually exclusive: every element in the population must be assigned to only one stratum. The strata should also be collectively exhaustive: no population element can be excluded. Then random or systematic sampling is applied within each stratum. This often improves the representativeness of the sample by reducing sampling error. It can produce a weighted mean that has less variability than the arithmetic mean of a simple random sample of the population.</p>
+            <p class="definition-source">-Wikipedia</p>
         </div>
 		<div id="explanation-content">
 			<p>Stratified sampling is where the population is divided into groups and then participants are taken in proportion to group sizes.
@@ -27,8 +28,7 @@ include ("inc/header2.php");
             </p>
             <br/>
 			<p>For example. A school wants to survey 50 people from year 7 and 8 about their favourite sandwich fillings. The table below shows the amount
-            chidren in those years.</p><br/>
-            
+            children in those years.</p><br/>
 <table border="1">
 <tr>
 <th>Year</th>

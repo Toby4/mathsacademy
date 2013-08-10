@@ -75,3 +75,14 @@
 {"ts":1375988562211,"patch":[[{"diffs":[[0,"l = "],[-1,"£"],[1,"$_R"],[0,"\n}\n\n"]],"start1":139,"start2":139,"length1":9,"length2":11}]],"length":248,"saved":false}
 {"ts":1375988566320,"patch":[[{"diffs":[[0,"il = $_R"],[1,"EQUEST[\"email\"]"],[0,"\n}\n\necho"]],"start1":138,"start2":138,"length1":16,"length2":31}]],"length":263,"saved":false}
 {"ts":1375988567720,"patch":[[{"diffs":[[0,"\"email\"]"],[1,";"],[0,"\n}\n\necho"]],"start1":153,"start2":153,"length1":16,"length2":17}]],"length":264,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1376130036521,"patch":[[{"diffs":[[0,"\");\n"],[-1,"fwrite($file, \"$quiz,$score\");"],[0,"\n?>"]],"start1":227,"start2":227,"length1":37,"length2":7}]],"length":234,"saved":false}
+{"ts":1376130045579,"patch":[[{"diffs":[[0," \"w+\");\n"],[1,"$"],[0,"\n?>"]],"start1":223,"start2":223,"length1":11,"length2":12}]],"length":235,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1376131668021,"patch":[[{"diffs":[[0,"e\";\n"],[-1,"$file = fopen(\"db/$email\", \"w+\");\n"],[0,"$\n?>"]],"start1":193,"start2":193,"length1":42,"length2":8}]],"length":201,"saved":false}
+{"ts":1376131699030,"patch":[[{"diffs":[[0,"score\";\n"],[-1,"$"],[1,"setcookie(\"email\", $email, time()+3600);"],[0,"\n?>"]],"start1":189,"start2":189,"length1":12,"length2":51}]],"length":240,"saved":false}
+{"ts":1376131708857,"patch":[[{"diffs":[[0,"cookie(\""],[-1,"email"],[1,"quiz"],[0,"\", $emai"]],"start1":200,"start2":200,"length1":21,"length2":20}]],"length":239,"saved":false}
+{"ts":1376131712005,"patch":[[{"diffs":[[0,"quiz\", $"],[-1,"email"],[0,", time()"]],"start1":208,"start2":208,"length1":21,"length2":16}]],"length":234,"saved":false}
+{"ts":1376131720877,"patch":[[{"diffs":[[0,"quiz\", $"],[1,"quiz"],[0,", time()"]],"start1":208,"start2":208,"length1":16,"length2":20}]],"length":238,"saved":false}
+{"ts":1376131724317,"patch":[[{"diffs":[[0,"\"quiz\", "],[1,"\""],[0,"$q"],[-1,"uiz"],[0,", time()"]],"start1":207,"start2":207,"length1":21,"length2":19}]],"length":236,"saved":false}
+{"ts":1376131726404,"patch":[[{"diffs":[[0,"iz\", \"$q"],[1,"uiz - $sc"],[0,", time()"]],"start1":210,"start2":210,"length1":16,"length2":25}]],"length":245,"saved":false}
+{"ts":1376131728232,"patch":[[{"diffs":[[0,"iz - $sc"],[1,"ore\""],[0,", time()"]],"start1":219,"start2":219,"length1":16,"length2":20}]],"length":249,"saved":false}
+{"ts":1376131859336,"patch":[[{"diffs":[[0,"ho \""],[-1,"db/"],[0,"$ema"]],"start1":168,"start2":168,"length1":11,"length2":8}]],"length":246,"saved":false}

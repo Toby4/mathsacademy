@@ -1,7 +1,8 @@
 <?php
 echo"<form method='post' action='stratifiedcalcprocess.php'>";
 echo "<span class='title'>Enter fields</span>";
-echo "<table>";
+echo "<table >";
+">";
 echo"<tr>";
 echo "<td><span>Group names: </span></td><br />";
 echo "<td>";

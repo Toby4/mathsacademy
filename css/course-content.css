@@ -33,6 +33,12 @@
 	
 }
 
+p.definition-source {
+    text-align: right;
+    margin-top: 15px;
+    color: #808080åß;
+}
+
 #explanation-content {
 	display: none;
 }

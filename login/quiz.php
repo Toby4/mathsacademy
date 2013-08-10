@@ -7,7 +7,6 @@ if ($_REQUEST["email"]) {} else {
     $email = $_REQUEST["email"];
 }
 
-echo "db/$email/$quiz-$score";
-$file = fopen("db/$email", "w+");
-fwrite($file, "$quiz,$score");
+echo "$email/$quiz-$score";
+setcookie("quiz", "$quiz - $score", time()+3600);
 ?>

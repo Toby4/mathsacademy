@@ -121,3 +121,10 @@ a {
 a#nested-link:hover {
     color: #8c8c8c;
 }
+
+#quiz_start {
+    margin-left: 350px;
+}
+
+
+

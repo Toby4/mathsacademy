@@ -38,7 +38,7 @@
         </header>
             <ul>
              <li><a id="home-nav" href="http://mathsacademy.montyman100.c9.io/index.php#">Home</a></li>
-        	 <li><a id="courses-nav" href='http://mathsacademy.montyman100.c9.io/index.php#course-content'>Courses</a></li>
+             <li><a id="courses-nav" href='http://mathsacademy.montyman100.c9.io/index.php#course-content'>Courses</a></li>
         	</ul>
         <button class="login-button" id="login">Login</button>
         </nav>
@@ -47,7 +47,7 @@
     
     <!-- Start of aside --->
     <aside id="left">
-    <h1 class="title_h1">Feed</h1>
+    <h1 class="title_h1" id ='feed'>Feed</h1>
         <p><button id="calculator-button" href="#">Calculator</button></p>
 	    <div id="calculator">
 		    <div class="calculator-arrow-up"></div>

@@ -2,7 +2,7 @@
 $page = "Stratified sampling quiz";
 include ("inc/css.php");
 include ("inc/script.php");
-include ("inc/header3.php");
+include ("inc/header2.php");
 include ("login/db.php");
 
 
@@ -165,6 +165,10 @@ switch ($score) {
 $thing = $score;
 
 echo "</section>";
+$quiz = "Stratified sampling";
+$file = fopen("inc/score.txt","w");
+echo fwrite($file,"$quiz - score: $thing / 10");
+fclose($file);
 
 include ("login/quiz.php");
 ?>
@@ -189,4 +193,3 @@ include ("login/quiz.php");
 
 </script>
 
-<?php setcookie("quiz", "$quiz - $score", time()+3600); ?>

@@ -98,3 +98,22 @@
 {"ts":1376076324917,"patch":[[{"diffs":[[0,"\n\n\n\n\n\n\n\n"],[-1,"."],[0,";\ninclud"]],"start1":174,"start2":174,"length1":17,"length2":16}]],"length":4775,"saved":false}
 {"ts":1376076330703,"patch":[[{"diffs":[[0,"\n\n\n\n\n\n\n\n"],[-1,"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"],[0,";\ninclud"]],"start1":157,"start2":157,"length1":33,"length2":16}]],"length":4758,"saved":false}
 {"ts":1376076334068,"patch":[[{"diffs":[[0,"hp\")"],[-1,"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"],[0,";\nin"]],"start1":118,"start2":118,"length1":51,"length2":8}]],"length":4715,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1376120077213,"patch":[[{"diffs":[[0,"tion>\";\n"],[1,"$expire=time()+60*60*24*30;\nsetcookie(\"user\", \"Alex Porter\", $expire);\n"],[0,"include "]],"start1":4141,"start2":4141,"length1":16,"length2":87}]],"length":4786,"saved":false}
+{"ts":1376120078078,"patch":[[{"diffs":[[0,"xpire);\n"],[1,"\n"],[0,"include "]],"start1":4212,"start2":4212,"length1":16,"length2":17}]],"length":4787,"saved":false}
+{"ts":1376120079876,"patch":[[{"diffs":[[0,"tion>\";\n"],[1,"\n"],[0,"$expire="]],"start1":4141,"start2":4141,"length1":16,"length2":17}]],"length":4788,"saved":false}
+{"ts":1376120101876,"patch":[[{"diffs":[[0,"ie(\""],[-1,"user"],[1,"quiz score"],[0,"\", \""]],"start1":4185,"start2":4185,"length1":12,"length2":18}]],"length":4794,"saved":false}
+{"ts":1376120106684,"patch":[[{"diffs":[[0,"e\", "],[-1,"\"Alex Porter\""],[1,"$"],[0,", $e"]],"start1":4198,"start2":4198,"length1":21,"length2":9}]],"length":4782,"saved":false}
+{"ts":1376120108133,"patch":[[{"diffs":[[0,"core\", $"],[1,"score"],[0,", $expir"]],"start1":4195,"start2":4195,"length1":16,"length2":21}]],"length":4787,"saved":false}
+{"ts":1376120114542,"patch":[[{"diffs":[[0,"core\", $"],[-1,"score"],[1,"thing"],[0,", $expir"]],"start1":4195,"start2":4195,"length1":21,"length2":21}]],"length":4787,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1376120209437,"patch":[[{"diffs":[[0,"ie(\"quiz"],[-1," "],[1,"_"],[0,"score\", "]],"start1":4185,"start2":4185,"length1":17,"length2":17}]],"length":4787,"saved":false}
+{"ts":1376120325447,"patch":[[{"diffs":[[0,"pire);\n\n"],[1,"\n"],[0,"include "]],"start1":4213,"start2":4213,"length1":16,"length2":17}]],"length":4788,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1376132072723,"patch":[[{"diffs":[[0,"\";\n\n"],[-1,"$expire=time()+60*60*24*30;\nsetcookie(\"quiz_score\", $thing, $expire);\n\n\n"],[0,"incl"]],"start1":4146,"start2":4146,"length1":80,"length2":8},{"diffs":[[0,"    });\n"],[1,"setcookie(\"quiz\", \"$quiz - $score\", time()+3600);"],[0,"\n</scrip"]],"start1":4696,"start2":4696,"length1":16,"length2":65}]],"length":4765,"saved":false}
+{"ts":1376132075060,"patch":[[{"diffs":[[0,"    });\n"],[1,"<"],[0,"setcooki"]],"start1":4696,"start2":4696,"length1":16,"length2":17}]],"length":4766,"saved":false}
+{"ts":1376132076764,"patch":[[{"diffs":[[0,"   });\n<"],[1,"?p"],[0,"setcooki"]],"start1":4697,"start2":4697,"length1":16,"length2":18}]],"length":4768,"saved":false}
+{"ts":1376132077613,"patch":[[{"diffs":[[0," });\n<?p"],[1,"jp "],[0,"setcooki"]],"start1":4699,"start2":4699,"length1":16,"length2":19}]],"length":4771,"saved":false}
+{"ts":1376132079456,"patch":[[{"diffs":[[0," });\n<?p"],[-1,"j"],[1,"h"],[0,"p setcoo"]],"start1":4699,"start2":4699,"length1":17,"length2":17}]],"length":4771,"saved":false}
+{"ts":1376132080307,"patch":[[{"diffs":[[0,")+3600);"],[1," "],[0,"\n</scrip"]],"start1":4751,"start2":4751,"length1":16,"length2":17}]],"length":4772,"saved":false}
+{"ts":1376132081149,"patch":[[{"diffs":[[0,"+3600); "],[1,"?>"],[0,"\n</scrip"]],"start1":4752,"start2":4752,"length1":16,"length2":18}]],"length":4774,"saved":false}
+{"ts":1376132083938,"patch":[[{"diffs":[[0,"});\n"],[-1,"<?php setcookie(\"quiz\", \"$quiz - $score\", time()+3600); ?>"],[0,"\n</s"]],"start1":4700,"start2":4700,"length1":66,"length2":8}]],"length":4716,"saved":false}
+{"ts":1376132085926,"patch":[[{"diffs":[[0,"cript>\n\n"],[1,"<?php setcookie(\"quiz\", \"$quiz - $score\", time()+3600); ?>"]],"start1":4708,"start2":4708,"length1":8,"length2":66}]],"length":4774,"saved":false}
+{"contributors":[],"silentsave":true,"ts":1376132740966,"patch":[[{"diffs":[[0,"c/header"],[-1,"2"],[1,"3"],[0,".php\");\n"]],"start1":107,"start2":107,"length1":17,"length2":17}]],"length":4774,"saved":false}
