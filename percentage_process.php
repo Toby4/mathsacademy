@@ -76,7 +76,7 @@ echo "<section id = 'box1'><h1 id = 'title_h1'>You scored ".$score." / 10</h1>";
 
 switch ($score) {
     case 0:
-        echo "<p>Teribble, just terribble.</p><img src='img/u.png' alt='u grade' />";
+        echo "<p>Terrible, just terrible.</p><img src='img/u.png' alt='u grade' />";
         break;
     case 1:
         echo "<p>You got some serious revising to do.</p><img src='img/f.png' alt='f grade' />";

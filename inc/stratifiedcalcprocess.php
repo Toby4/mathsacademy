@@ -6,13 +6,13 @@ echo"<tr>";
 echo "<td><span>Group names: </span></td><br />";
 echo "<td>";
 
-	echo"<input type='text' name='g_1' id='group_name' class='short'>";
+	echo"<input type='text' name='g_1' id='group_name'>";
     echo "<br />";
-	echo"<input type='text' name='g_2' id='group_name' class='short'>";
+	echo"<input type='text' name='g_2' id='group_name'>";
     echo "<br />";
-	echo"<input type='text' name='g_3' id='group_name' class='short'>";
+	echo"<input type='text' name='g_3' id='group_name'>";
     echo "<br />";
-	echo"<input type='text' name='g_4' id='group_name' class='short'>";
+	echo"<input type='text' name='g_4' id='group_name'>";
 
 echo "</td>";
 echo"</tr>";

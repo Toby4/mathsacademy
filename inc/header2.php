@@ -57,7 +57,6 @@
 			</div>
 		</div>
 	
-	
 <script type="text/javascript">
 	$(document).ready(function(){
  
@@ -70,10 +69,11 @@
  
 });
 </script>
+
     <!--    <div id="progressbar">
           <div></div>
         </div> -->
-    </aside 
+    </aside> 
 <!-- START OF FACEBOOK LOGIN SCREEN -->
 
     	<div class="md-modal md-effect-7" id="modal-7">

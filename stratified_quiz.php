@@ -20,7 +20,7 @@ function incrementTimeMaybeKillPage() {
 console.log("hooray");
     secondsLeft = secondsLeft - 1;
     if(secondsLeft === 0) {
-        window.location='process.php';
+        window.location='stratified_process.php';
        // $('<input>').attr('type','hidden').attr('name', 'timeout').attr('value', 'true').appendTo('form');
         //$('form#form').submit();
         //console.log("submit");
@@ -35,6 +35,7 @@ function questionComplete(){
 <div id='quiz'>
 <section>
 <form id="form" action="stratified_process.php" method="post">
+<h3 id="timer">You have <span></span> seconds left</h3>
 <h3>1. What is the best definition for stratified sampling?</h3>
 <input type="radio" name="q1" class="radio_button" value="a1" /><span>A technique used to record data from questionnaires.</span></span><br />
 <input type="radio" name="q1" class="radio_button" value="a2" /><span>Each element of the population has a equal chance of being selected.</span><br />
@@ -186,6 +187,4 @@ function questionComplete(){
 
 </form>
 
-
-<h3 id="timer">You have <span></span> seconds left</h3>
 </div>

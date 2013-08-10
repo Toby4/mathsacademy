@@ -7,7 +7,6 @@ include ("inc/header.php");
             <p>Welcome to maths academy. We decided to create this site after we found that children nowadays prefer teaching themselves rather than being spoken at.</p>
             <p>This site uses a combination of: html, css, php, jquery, javascript and ajax.</p>
             <p>Children fill out the quizes and once they submit, the grade gets stored. This is so schools can see who is getting the high grades and who is getting the low ones. This is a form of open data.</p>
-            <p>Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.</p>
              
             <div class = "quote">
                 <p>'Pure mathematics is, in its way, the poetry of logical ideas.'</p>
@@ -43,13 +42,13 @@ include ("inc/header.php");
                         </ul>            
                 </div>
                 <div id="main-link">
-                    <a class = "course-link" id ="course-link-3">Numbers and Fractions</a>
+                    <a class = "course-link" id ="course-link-3">Numbers</a>
                         <ul id = "3-course-list">
-                            <li><a href="#" id ="nested-link">Formulae and equations</a></li>
-                            <li><a href="#" id ="nested-link">Inequalities</a></li>
-                            <li><a href="#" id ="nested-link">Graphs</a></li>
-                            <li><a href="#" id ="nested-link">Quadratic Equations</a></li>
-                            <li><a href="#" id ="nested-link">Sequences</a></li>
+                            <li><a href="#" id ="nested-link">Order of operation</a></li>
+                            <li><a href="#" id ="nested-link">Rounding and estimating</a></li>
+                            <li><a href="#" id ="nested-link">Fractions</a></li>
+                            <li><a href="#" id ="nested-link">percentages</a></li>
+                            <li><a href="#" id ="nested-link">ratios</a></li>
                         </ul>            
                 </div>
                 <div id="main-link">
